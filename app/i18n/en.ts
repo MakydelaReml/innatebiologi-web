@@ -24,10 +24,10 @@ export const en = {
     eyebrow: "Sacred biology meets precision wellness",
     title: "Luxury biological intelligence for a body that remembers how to heal.",
     copy:
-      "INNATEBIOLOGI designs elegant, nature-aligned protocols for cellular repair, nervous system depth, and regenerative vitality.",
+      "Elegant protocols for cellular repair, nervous-system depth, and regenerative vitality.",
     primaryCta: "Programs",
     secondaryCta: "Method",
-    imageAlt: "Cinematic organic biotechnology with botanical DNA forms and luminous cellular vitality",
+    imageAlt: "Regenerative human biology with bioelectric intelligence and luminous cellular vitality",
     cardLabel: "Cellular intelligence",
     cardCopy: "Organic systems, measurable repair, and quiet vitality in one living protocol.",
     rootLine: "return to the root"

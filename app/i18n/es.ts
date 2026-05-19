@@ -24,10 +24,10 @@ export const es = {
     eyebrow: "Biología sagrada y bienestar de precisión",
     title: "Inteligencia biológica de lujo para un cuerpo que recuerda cómo sanar.",
     copy:
-      "INNATEBIOLOGI diseña protocolos elegantes, alineados con la naturaleza, para la reparación celular, la profundidad del sistema nervioso y la vitalidad regenerativa.",
+      "Protocolos elegantes para reparación celular, sistema nervioso profundo y vitalidad regenerativa.",
     primaryCta: "Programas",
     secondaryCta: "Método",
-    imageAlt: "Biotecnología orgánica cinematográfica con formas botánicas de ADN y vitalidad celular luminosa",
+    imageAlt: "Biología humana regenerativa con inteligencia bioeléctrica y vitalidad celular luminosa",
     cardLabel: "Inteligencia celular",
     cardCopy: "Sistemas orgánicos, reparación medible y vitalidad serena en un único protocolo vivo.",
     rootLine: "volver a la raíz"
