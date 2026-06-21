@@ -7,44 +7,24 @@ import {
   Play,
   Sparkles
 } from "lucide-react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import { useRef } from "react";
 import { getCopy, languageConfig, publicLocales, type PublicLocale } from "../i18n";
 
+import { BioSporeCanvas } from "./BioSporeCanvas";
+
 const fadeUp = {
-  hidden: { opacity: 0, y: 34 },
+  hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0 }
 };
 
 function SectionLabel({ children }: { children: ReactNode }) {
   return (
-    <div className="mb-5 inline-flex max-w-full items-center gap-2 rounded-full border border-aureate/20 bg-aureate/10 px-3 py-2 text-[0.62rem] font-semibold uppercase leading-relaxed tracking-[0.16em] text-aureate sm:px-4 sm:text-[0.68rem] sm:tracking-[0.2em]">
-      <Sparkles className="h-3.5 w-3.5" />
+    <div className="mb-6 inline-flex max-w-full items-center gap-2 rounded-full border border-aureate/15 bg-aureate/5 px-3 py-2 text-[0.62rem] font-semibold uppercase leading-relaxed tracking-[0.2em] text-aureate/90 sm:px-4 sm:text-[0.68rem] sm:tracking-[0.22em]">
+      <Sparkles className="h-3.5 w-3.5 opacity-70" />
       {children}
-    </div>
-  );
-}
-
-function CinematicImage({
-  src,
-  alt,
-  className = "",
-  imageClassName = "",
-  priority = false
-}: {
-  src: string;
-  alt: string;
-  className?: string;
-  imageClassName?: string;
-  priority?: boolean;
-}) {
-  return (
-    <div className={`premium-image-shell ${className}`}>
-      <Image src={src} alt={alt} fill sizes="(min-width: 1024px) 50vw, 100vw" className={`object-cover ${imageClassName}`} priority={priority} />
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(3,5,4,0.04),rgba(3,5,4,0.42))]" />
-      <div className="absolute inset-0 ring-1 ring-inset ring-aureate/15" />
     </div>
   );
 }
@@ -52,37 +32,42 @@ function CinematicImage({
 export default function HomePage({ locale }: { locale: PublicLocale }) {
   const t = getCopy(locale);
   const pageRef = useRef<HTMLDivElement>(null);
+  const heroRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: pageRef });
   const y = useTransform(scrollYProgress, [0, 1], [0, -76]);
-  const heroImageY = useTransform(scrollYProgress, [0, 0.42], [0, -22]);
+  const heroImageY = useTransform(scrollYProgress, [0, 0.42], [0, -14]);
 
   return (
     <main ref={pageRef} className="relative min-h-screen overflow-hidden bg-ink text-stone-50">
-      <div className="bio-grid pointer-events-none fixed inset-0 opacity-60" />
+      <div className="bio-grid pointer-events-none fixed inset-0 opacity-40" />
+      <div className="bio-conductive-field" />
+      <div className="osmotic-veil" />
+      <div className="mineral-points" />
+      <BioSporeCanvas heroHeight={heroRef.current?.offsetHeight} />
       <motion.div
         style={{ y }}
-        className="pointer-events-none fixed left-1/2 top-[-18rem] h-[48rem] w-[48rem] -translate-x-1/2 rounded-full bg-radial-biology blur-3xl"
+        className="pointer-events-none fixed left-1/2 top-[-22rem] h-[52rem] w-[52rem] -translate-x-1/2 rounded-full bg-radial-biology blur-[120px] opacity-60"
       />
 
-      <header className="fixed left-0 right-0 top-0 z-50 border-b border-white/10 bg-ink/72 backdrop-blur-2xl sm:bg-ink/62">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-4 gap-y-2.5 px-6 py-3 sm:flex-nowrap sm:px-8 sm:py-4">
-          <a href="#hero" className="font-display text-[0.88rem] tracking-[0.13em] text-lymph max-[360px]:text-[0.8rem] max-[360px]:tracking-[0.11em] sm:text-xl sm:tracking-[0.22em]">
-            <span className="inline-flex items-center gap-2.5 sm:gap-3">
-              <Image src="/innate-biologi-mark.svg" alt="" width={32} height={32} className="h-7 w-7 max-[360px]:h-6 max-[360px]:w-6 sm:h-8 sm:w-8" priority />
+      <header className="fixed left-0 right-0 top-0 z-50 border-b border-white/5 bg-ink/40 backdrop-blur-3xl">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-4 gap-y-2.5 px-6 py-4 sm:flex-nowrap sm:px-8 sm:py-5">
+          <a href="#hero" className="font-display text-[0.88rem] tracking-[0.16em] text-lymph/90 max-[360px]:text-[0.8rem] max-[360px]:tracking-[0.11em] sm:text-xl sm:tracking-[0.25em]">
+            <span className="inline-flex items-center gap-3 sm:gap-4">
+              <Image src="/innate-biologi-mark.svg" alt="" width={32} height={32} className="h-6 w-6 opacity-80 sm:h-7 sm:w-7" priority />
               INNATEBIOLOGI
             </span>
           </a>
-          <nav className="hidden items-center gap-7 text-sm text-stone-300 lg:flex">
+          <nav className="hidden items-center gap-9 text-[0.82rem] tracking-widest text-stone-400 lg:flex">
             {t.header.nav.map((item) => (
-              <a key={item.href} href={item.href} className="transition hover:text-aureate">
+              <a key={item.href} href={item.href} className="transition-colors hover:text-aureate">
                 {item.label}
               </a>
             ))}
           </nav>
-          <div className="flex items-center gap-3 max-[360px]:w-full">
+          <div className="flex items-center gap-4 max-[360px]:w-full">
             <div
               aria-label={t.header.languageLabel}
-              className="hidden rounded-full border border-white/10 bg-white/[0.035] p-1 text-[0.68rem] font-bold uppercase tracking-[0.16em] text-stone-400 sm:flex"
+              className="hidden rounded-full border border-white/5 bg-white/[0.02] p-1 text-[0.65rem] font-bold uppercase tracking-[0.18em] text-stone-500 sm:flex"
             >
               {publicLocales.map((itemLocale) => {
                 const language = languageConfig[itemLocale];
@@ -93,8 +78,8 @@ export default function HomePage({ locale }: { locale: PublicLocale }) {
                     key={itemLocale}
                     href={language.route}
                     aria-current={active ? "page" : undefined}
-                    className={`rounded-full px-3 py-1.5 transition ${
-                      active ? "bg-aureate/15 text-aureate" : "hover:text-lymph"
+                    className={`rounded-full px-3.5 py-1.5 transition ${
+                      active ? "bg-aureate/10 text-aureate" : "hover:text-lymph"
                     }`}
                   >
                     {language.shortLabel}
@@ -103,81 +88,66 @@ export default function HomePage({ locale }: { locale: PublicLocale }) {
               })}
             </div>
             <a
-              href="#final-cta"
-              className="ml-auto inline-flex min-h-11 items-center justify-center gap-1.5 rounded-full border border-aureate bg-aureate px-4 py-2 text-xs font-bold text-ink shadow-gold transition hover:border-lymph hover:bg-lymph focus:outline-none focus-visible:ring-2 focus-visible:ring-aureate/70 focus-visible:ring-offset-2 focus-visible:ring-offset-ink max-[360px]:w-full sm:min-h-0 sm:gap-2 sm:px-4 sm:py-2 sm:text-sm"
+              href="/apply"
+              className="ml-auto inline-flex min-h-11 items-center justify-center gap-2 rounded-[2px] border border-aureate/60 bg-aureate/90 px-5 py-2 text-[0.7rem] font-semibold uppercase tracking-[0.16em] text-ink transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-0.5 hover:border-lymph hover:bg-lymph focus:outline-none max-[360px]:w-full sm:min-h-0 sm:px-5 sm:py-2.5"
             >
-              {t.header.apply} <ArrowRight className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+              {t.header.apply} <ArrowRight className="h-3.5 w-3.5" />
             </a>
           </div>
         </div>
       </header>
 
-      <section id="hero" className="relative flex min-h-[100svh] items-start px-6 pb-28 pt-32 sm:min-h-screen sm:items-center sm:px-8 sm:pb-28 sm:pt-32">
-        <motion.div style={{ y: heroImageY }} className="absolute -inset-x-10 -inset-y-16">
-          <Image src="/images/cinematic-biology-hero.png" alt="" fill sizes="100vw" className="scale-[1.13] object-cover object-[72%_center] opacity-56 sm:scale-[1.08] sm:object-[66%_center] sm:opacity-62 lg:opacity-68" priority />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_74%_34%,rgba(217,255,240,0.24),transparent_32%),radial-gradient(circle_at_82%_62%,rgba(215,196,143,0.12),transparent_34%)]" />
-          <div className="absolute inset-0 bg-[linear-gradient(90deg,#030504_0%,rgba(3,5,4,0.86)_36%,rgba(3,5,4,0.3)_76%,rgba(3,5,4,0.66)_100%)] sm:bg-[linear-gradient(90deg,#030504_0%,rgba(3,5,4,0.84)_32%,rgba(3,5,4,0.14)_72%,rgba(3,5,4,0.54)_100%)]" />
-          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(3,5,4,0.26)_0%,rgba(3,5,4,0.03)_38%,#030504_98%)]" />
+      <section id="hero" ref={heroRef} className="relative flex min-h-[100svh] items-start px-6 pb-32 pt-44 sm:min-h-screen sm:items-center sm:px-8 sm:pb-32 sm:pt-40">
+        <motion.div style={{ y: heroImageY }} className="absolute -inset-x-10 -inset-y-20">
+          <Image src="/images/human-ecosystem-biology.png" alt="" fill sizes="100vw" className="scale-[1.06] object-cover object-[82%_42%] opacity-[0.65] mix-blend-lighten" priority />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_82%_38%,rgba(217,255,240,0.12),transparent_40%)]" />
+          <div className="absolute inset-0 bg-[linear-gradient(90deg,#030504_0%,rgba(3,5,4,0.95)_25%,rgba(3,5,4,0.1)_65%,rgba(3,5,4,0.8)_100%)]" />
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(3,5,4,0.4)_0%,transparent_30%,#030504_95%)]" />
         </motion.div>
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-44 bg-[linear-gradient(180deg,transparent,#030504_78%)]" />
-        <div className="relative mx-auto grid max-w-7xl items-center gap-14 sm:gap-16 lg:grid-cols-[0.76fr_1.24fr] xl:grid-cols-[0.72fr_1.28fr]">
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-64 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
+        <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-14 sm:gap-16 lg:grid-cols-[0.8fr_1.2fr]">
           <motion.div
             initial="hidden"
             animate="visible"
             variants={fadeUp}
-            transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
           >
-            <SectionLabel>{t.hero.eyebrow}</SectionLabel>
-            <h1 className="max-w-4xl font-display text-[clamp(2.2rem,9.7vw,3.85rem)] leading-[1.07] text-stone-50 [text-shadow:0_2px_26px_rgba(0,0,0,0.78)] sm:text-6xl sm:leading-[0.96] sm:[text-wrap:balance] lg:text-7xl xl:text-8xl">
+            <div className="mb-8 flex items-center gap-3 text-[0.62rem] font-semibold uppercase leading-relaxed tracking-[0.25em] text-aureate/80 sm:text-[0.68rem] sm:tracking-[0.3em]">
+              <div className="h-px w-6 bg-aureate/30" />
+              <span>{t.hero.eyebrow}</span>
+            </div>
+            <h1 className="max-w-4xl font-display text-[clamp(2.4rem,10vw,4.2rem)] leading-[1.12] tracking-tight text-stone-50 [text-shadow:0_4px_34px_rgba(0,0,0,0.5)] sm:text-7xl sm:leading-[1.05] lg:text-[5.5rem] xl:text-[6.5rem]">
               {t.hero.title}
             </h1>
-            <p className="mt-6 max-w-md text-[0.98rem] leading-8 text-stone-200 sm:mt-7 sm:max-w-lg sm:text-lg sm:leading-8 sm:text-stone-300">
+            <p className="mt-9 max-w-md text-[1.05rem] leading-9 tracking-wide text-stone-300/90 sm:mt-10 sm:max-w-lg sm:text-xl sm:leading-10">
               {t.hero.copy}
             </p>
-            <div className="mt-7 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:gap-4">
+            <div className="mt-10 flex flex-col gap-4 sm:mt-14 sm:flex-row sm:gap-6">
               <a
                 href="#programs"
-                className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-lymph/70 bg-lymph px-5 py-3.5 text-xs font-bold uppercase tracking-[0.14em] text-ink shadow-[0_18px_48px_rgba(217,255,240,0.18)] transition hover:border-aureate hover:bg-aureate focus:outline-none focus-visible:ring-2 focus-visible:ring-lymph/80 focus-visible:ring-offset-2 focus-visible:ring-offset-ink sm:min-h-0 sm:px-6 sm:py-4 sm:text-sm sm:tracking-[0.18em]"
+                className="inline-flex min-h-12 items-center justify-center gap-2 rounded-[2px] border border-lymph/40 bg-lymph/90 px-7 py-4 text-[0.7rem] font-bold uppercase tracking-[0.2em] text-ink shadow-[0_20px_50px_rgba(217,255,240,0.1)] transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1 hover:border-aureate hover:bg-aureate sm:min-h-0 sm:px-8 sm:py-5 sm:text-[0.75rem]"
               >
                 {t.hero.primaryCta} <ChevronRight className="h-4 w-4" />
               </a>
               <a
                 href="#method"
-                className="inline-flex min-h-12 items-center justify-center gap-2.5 rounded-full border border-white/15 px-5 py-3.5 text-xs font-semibold text-stone-100 transition hover:border-aureate/50 hover:text-aureate sm:min-h-0 sm:gap-3 sm:px-6 sm:py-4 sm:text-sm"
+                className="inline-flex min-h-12 items-center justify-center gap-3 rounded-[2px] border border-white/10 bg-white/[0.02] px-7 py-4 text-[0.7rem] font-semibold uppercase tracking-[0.15em] text-stone-200 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] hover:border-aureate/40 hover:bg-white/[0.05] hover:text-aureate sm:min-h-0 sm:px-8 sm:py-5 sm:text-[0.75rem]"
               >
-                <Play className="h-4 w-4 fill-current" /> {t.hero.secondaryCta}
+                <Play className="h-3.5 w-3.5 fill-current opacity-80" /> {t.hero.secondaryCta}
               </a>
             </div>
           </motion.div>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.96, y: 18 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{ duration: 2.1, delay: 0.24, ease: [0.22, 1, 0.36, 1] }}
-            className="relative lg:pl-6"
-          >
-            <div className="pointer-events-none absolute -inset-10 rounded-[2.75rem] bg-[radial-gradient(circle_at_50%_42%,rgba(217,255,240,0.18),transparent_55%)] blur-2xl" />
-            <CinematicImage
-              src="/images/cinematic-biology-hero.png"
-              alt={t.hero.imageAlt}
-              className="aspect-[0.78] max-h-[520px] min-h-[390px] rounded-[1.5rem] sm:aspect-[0.76] sm:max-h-[780px] sm:min-h-[540px] sm:rounded-[2rem] lg:aspect-[0.82]"
-              imageClassName="scale-[1.28] object-[68%_42%] sm:scale-[1.2] sm:object-[66%_43%] lg:scale-[1.15]"
-              priority
-            />
-            <div className="absolute -bottom-6 left-8 right-8 hidden border border-aureate/15 bg-ink/62 px-6 py-4 shadow-gold backdrop-blur-xl lg:block">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-aureate">{t.hero.cardLabel}</p>
-              <p className="mt-2 text-sm leading-6 text-stone-300">{t.hero.cardCopy}</p>
-            </div>
-          </motion.div>
         </div>
-        <div className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 items-center gap-4 text-xs uppercase tracking-[0.32em] text-stone-500 md:flex">
-          <span className="h-px w-16 bg-stone-700" />
+        
+        <div className="absolute bottom-12 left-1/2 hidden -translate-x-1/2 items-center gap-6 text-[0.6rem] font-bold uppercase tracking-[0.4em] text-stone-600 md:flex">
+          <span className="h-px w-20 bg-stone-800/60" />
           {t.hero.rootLine}
-          <span className="h-px w-16 bg-stone-700" />
+          <span className="h-px w-20 bg-stone-800/60" />
         </div>
       </section>
 
       <section id="problem" className="relative px-6 py-24 sm:px-8 lg:py-32">
-        <div className="mx-auto max-w-7xl">
+        <div className="relative z-10 mx-auto max-w-7xl">
           <div className="grid gap-12 lg:grid-cols-[0.85fr_1.15fr]">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-120px" }} variants={fadeUp} transition={{ duration: 0.7 }}>
               <SectionLabel>{t.problem.eyebrow}</SectionLabel>
@@ -208,7 +178,7 @@ export default function HomePage({ locale }: { locale: PublicLocale }) {
         </div>
       </section>
 
-      <section id="solution" className="relative overflow-hidden border-y border-white/10 px-6 py-24 sm:px-8 lg:py-32">
+      <section id="solution" className="relative overflow-hidden px-6 py-24 sm:px-8 lg:py-32">
         <div className="absolute inset-0">
           <Image src="/images/nature-cellular-intelligence.png" alt="" fill sizes="100vw" className="object-cover opacity-45" />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,#030504_0%,rgba(3,5,4,0.68)_50%,#030504_100%)]" />
@@ -233,7 +203,7 @@ export default function HomePage({ locale }: { locale: PublicLocale }) {
       </section>
 
       <section id="method" className="relative px-6 py-24 sm:px-8 lg:py-32">
-        <div className="mx-auto max-w-7xl">
+        <div className="relative z-10 mx-auto max-w-7xl">
           <SectionLabel>{t.method.eyebrow}</SectionLabel>
           <div className="grid gap-6 md:grid-cols-3">
             {t.method.items.map((item, index) => {
@@ -263,7 +233,7 @@ export default function HomePage({ locale }: { locale: PublicLocale }) {
       </section>
 
       <section id="programs" className="relative px-6 py-24 sm:px-8 lg:py-32">
-        <div className="mx-auto max-w-7xl">
+        <div className="relative z-10 mx-auto max-w-7xl">
           <div className="mb-14 flex flex-col justify-between gap-7 lg:flex-row lg:items-end">
             <div>
               <SectionLabel>{t.programs.eyebrow}</SectionLabel>
@@ -278,7 +248,7 @@ export default function HomePage({ locale }: { locale: PublicLocale }) {
           <div className="grid gap-5 lg:grid-cols-3">
             {t.programs.items.map((program, index) => (
               <motion.article
-                key={program.name}
+                key={program.id}
                 initial={{ opacity: 0, y: 36 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -293,7 +263,7 @@ export default function HomePage({ locale }: { locale: PublicLocale }) {
                   <h3 className="mt-7 font-display text-3xl leading-tight text-stone-50 sm:mt-8 sm:text-4xl">{program.name}</h3>
                   <p className="mt-5 min-h-28 max-w-sm leading-8 text-stone-300">{program.detail}</p>
                 </div>
-                <a href="#final-cta" className="relative z-10 mt-8 inline-flex items-center gap-2 text-sm font-bold uppercase tracking-[0.18em] text-aureate">
+                <a href={`/programs/${program.id}`} className="relative z-10 mt-8 inline-flex items-center gap-2 text-sm font-bold uppercase tracking-[0.18em] text-aureate">
                   {t.programs.requestAccess} <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
                 </a>
               </motion.article>
@@ -302,8 +272,8 @@ export default function HomePage({ locale }: { locale: PublicLocale }) {
         </div>
       </section>
 
-      <section id="about" className="relative border-y border-white/10 px-6 py-24 sm:px-8 lg:py-32">
-        <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+      <section id="about" className="relative px-6 py-24 sm:px-8 lg:py-32">
+        <div className="relative z-10 mx-auto grid max-w-7xl gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div className="luxury-border relative min-h-[440px] overflow-hidden rounded-[1.5rem] p-6 sm:min-h-[520px] sm:rounded-[2rem] sm:p-8">
             <Image src="/images/human-ecosystem-biology.png" alt="" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover opacity-75" />
             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(3,5,4,0.08),rgba(3,5,4,0.58)_56%,#030504_100%)]" />
@@ -373,8 +343,8 @@ export default function HomePage({ locale }: { locale: PublicLocale }) {
                 {t.finalCta.copy}
               </p>
               <a
-                href="mailto:hello@innatebiologi.com"
-                className="mt-7 inline-flex w-full items-center justify-center gap-2 rounded-full border border-aureate bg-aureate px-5 py-3.5 text-xs font-bold uppercase tracking-[0.14em] text-ink shadow-gold transition hover:border-lymph hover:bg-lymph focus:outline-none focus-visible:ring-2 focus-visible:ring-aureate/80 focus-visible:ring-offset-2 focus-visible:ring-offset-ink sm:mt-8 sm:w-auto sm:px-7 sm:py-4 sm:text-sm sm:tracking-[0.18em]"
+                href="/apply"
+                className="mt-7 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-[3px] border border-aureate/90 bg-aureate px-5 py-3.5 text-xs font-medium uppercase tracking-[0.18em] text-ink shadow-[0_18px_42px_rgba(215,196,143,0.14)] transition duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-0.5 hover:border-lymph hover:bg-lymph focus:outline-none focus-visible:ring-2 focus-visible:ring-aureate/80 focus-visible:ring-offset-2 focus-visible:ring-offset-ink sm:mt-8 sm:min-h-0 sm:w-auto sm:px-7 sm:py-4 sm:text-sm sm:tracking-[0.2em]"
               >
                 {t.finalCta.cta} <ArrowRight className="h-4 w-4" />
               </a>

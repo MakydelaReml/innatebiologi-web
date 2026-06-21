@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #FAFAF9;
+  --font-manrope: Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-cormorant: "Cormorant Garamond", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --grain:
+    radial-gradient(circle at 20% 20%, rgba(120, 99, 79, 0.015), transparent 18%),
+    radial-gradient(circle at 80% 10%, rgba(120, 99, 79, 0.012), transparent 16%),
+    radial-gradient(circle at 50% 90%, rgba(120, 99, 79, 0.02), transparent 20%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    var(--grain),
+    linear-gradient(180deg, #FAFAF9 0%, #F3EEE7 42%, #FAFAF9 100%);
+  color: #2B2B2B;
+  font-family: var(--font-manrope), sans-serif;
+}
+
+::selection {
+  background: rgba(120, 99, 79, 0.15);
+  color: #2B2B2B;
+}
+
+.bio-grid {
+  background-image:
+    linear-gradient(rgba(120, 99, 79, 0.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(120, 99, 79, 0.022) 1px, transparent 1px);
+  background-size: 96px 96px;
+  mask-image: radial-gradient(circle at 50% 35%, black 0%, transparent 70%);
+}
+
+.bio-conductive-field {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(116deg, transparent 7%, rgba(120, 99, 79, 0.02) 7.2%, transparent 7.55%),
+    linear-gradient(64deg, transparent 24%, rgba(231, 216, 193, 0.035) 24.2%, transparent 24.55%),
+    linear-gradient(136deg, transparent 58%, rgba(118, 108, 97, 0.022) 58.2%, transparent 58.48%);
+  background-size: 360px 360px, 520px 520px, 620px 620px;
+  mask-image: radial-gradient(circle at 68% 32%, black 0%, transparent 62%);
+  opacity: 0.82;
+  animation: bio-conductive-breathe 18s ease-in-out infinite alternate;
+}
+
+.osmotic-veil {
+  position: fixed;
+  inset: -12%;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 74% 28%, rgba(231, 216, 193, 0.25), transparent 20%),
+    radial-gradient(circle at 62% 58%, rgba(120, 99, 79, 0.075), transparent 24%),
+    radial-gradient(circle at 88% 70%, rgba(245, 235, 221, 0.42), transparent 18%);
+  filter: blur(28px);
+  opacity: 0.72;
+  animation: osmotic-drift 24s ease-in-out infinite alternate;
+}
+
+.mineral-points {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, rgba(120, 99, 79, 0.22) 0 1px, transparent 1.8px),
+    radial-gradient(circle, rgba(118, 108, 97, 0.16) 0 1px, transparent 1.8px);
+  background-position:
+    82% 18%,
+    67% 54%;
+  background-size:
+    280px 280px,
+    360px 360px;
+  mask-image: radial-gradient(circle at 78% 40%, black 0%, transparent 54%);
+  opacity: 0.42;
+}
+
+.hero-particle-field {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+  mask-image:
+    radial-gradient(circle at 80% 300px, black 0%, black 24%, transparent 68%),
+    linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.3) 10%, black 28%, black 100%),
+    linear-gradient(180deg, black 0%, black 800px, rgba(0, 0, 0, 0.4) 1200px, rgba(0, 0, 0, 0.1) 100%);
+}
+
+@media (max-width: 640px) {
+  .hero-particle-field {
+    mask-image:
+      radial-gradient(circle at 76% 28%, black 0%, black 30%, transparent 74%),
+      linear-gradient(90deg, transparent 0%, black 18%, black 100%);
+  }
+}
+
+.luxury-border {
+  border: 1px solid rgba(120, 99, 79, 0.12);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.2)),
+    rgba(243, 238, 231, 0.35);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 8px 30px rgba(120, 99, 79, 0.03);
+  backdrop-filter: blur(16px);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.helix-line {
+  background:
+    linear-gradient(90deg, transparent, rgba(217, 255, 240, 0.6), transparent),
+    linear-gradient(90deg, transparent, rgba(215, 196, 143, 0.38), transparent);
+}
+
+@keyframes bio-conductive-breathe {
+  from {
+    opacity: 0.42;
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    opacity: 0.78;
+    transform: translate3d(1.4rem, -0.8rem, 0);
+  }
+}
+
+@keyframes osmotic-drift {
+  from {
+    transform: translate3d(-1rem, 0.4rem, 0) scale(1);
+  }
+
+  to {
+    transform: translate3d(1.2rem, -1rem, 0) scale(1.035);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bio-conductive-field,
+  .osmotic-veil {
+    animation: none !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
