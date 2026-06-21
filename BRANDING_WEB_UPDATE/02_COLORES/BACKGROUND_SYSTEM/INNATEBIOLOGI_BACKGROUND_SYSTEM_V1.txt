@@ -1,0 +1,62 @@
+INNATEBIOLOGI — BACKGROUND SYSTEM V1
+
+━━━━━━━━━━━━━━━━━━━
+PRIMARY BACKGROUNDS
+━━━━━━━━━━━━━━━━━━━
+
+BONEWHITE
+HEX: #FAFAF9
+
+Uso:
+- Homepage premium
+- Secciones educativas
+- Diseño editorial
+- Espacios respirables
+
+━━━━━━━━━━━━━━━━━━━
+SECONDARY BACKGROUNDS
+━━━━━━━━━━━━━━━━━━━
+
+SOFT MINERAL
+HEX: #F3EEE7
+
+Uso:
+- Cards
+- Bloques secundarios
+- Separación suave
+
+━━━━━━━━━━━━━━━━━━━
+DARK CINEMATIC
+━━━━━━━━━━━━━━━━━━━
+
+GRAPHITE
+HEX: #2B2B2B
+
+Uso:
+- Hero sections
+- Motion cinematográfico
+- Fondos premium oscuros
+
+━━━━━━━━━━━━━━━━━━━
+BIOLOGICAL DEPTH
+━━━━━━━━━━━━━━━━━━━
+
+DEEPBIOLOGY
+HEX: #766C61
+
+Uso:
+- Gradientes
+- Capas orgánicas
+- Fondos vivos
+- Depth layers
+
+━━━━━━━━━━━━━━━━━━━
+RULES
+━━━━━━━━━━━━━━━━━━━
+
+- Nunca usar negro puro.
+- Nunca usar blanco puro.
+- Mantener sensación cálida y orgánica.
+- Priorizar respiración visual.
+- Evitar saturación tecnológica agresiva.
+- El lujo debe sentirse natural, no corporativo.

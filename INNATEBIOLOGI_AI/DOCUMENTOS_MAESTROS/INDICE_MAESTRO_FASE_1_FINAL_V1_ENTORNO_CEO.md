@@ -1,0 +1,43 @@
+# INDICE_MAESTRO_FASE_1_FINAL_V1
+
+Estado: indice documental final generado a partir de los documentos fisicos recuperados durante la auditoria documental de mayo-junio 2026.
+
+Criterio de inclusion: se incluyen unicamente archivos existentes y accesibles en el entorno actual relacionados con INNATEBIOLOGI. No se incluyen documentos no localizados fisicamente, como `REESCRITURA_CLASE_1_V1` a `REESCRITURA_CLASE_8_V1`, porque no existen como archivos identificables en el entorno auditado.
+
+## Tabla maestra
+
+| Documento exacto | Categoria | Estado | Funcion | Prioridad | Carpeta recomendada | Relacion con otros documentos |
+|---|---|---|---|---|---|---|
+| `AGENTS.md` | Instrucciones de agente / marco operativo | Activo en entorno | Define rol, limites, lenguaje, prioridades y reglas operativas del CEO INNATEBIOLOGI v1. | Alta | `/workspace/` | Marco superior para interpretar todos los documentos y evitar decisiones fuera de rol. |
+| `CONTROL_CLASES_V1.md` | Control documental / produccion de curso | Recuperado; desactualizado parcialmente | Controla estado de transcripcion, analisis, workbook y mejora de clases. | Alta | `/workspace/agent_files/` | Se relaciona con `clase1.md` a `clase8.md`, `MAPA_CURSO_V1.md` y `DECISIONES_CURRICULARES_V1.md`. Presenta inconsistencia: marca clases 6-8 como pendientes aunque existen archivos `clase6.md`, `clase7.md` y `clase8.md`. |
+| `DECISIONES_CURRICULARES_V1.md` | Documento curricular / decisiones de curso | Recuperado; referencia curricular vigente con alcance limitado | Resume concepto principal, fases oficiales y decisiones sobre clases 1 a 5. | Alta | `/workspace/agent_files/` | Se apoya en `GLOSARIO_TERMINOLOGIA_V1.md` y se cruza con `MAPA_CURSO_V1.md`. No contiene reescrituras independientes. |
+| `FICHA_ESTRATEGICA_BLOQUE_6_8_V1 (1).md` | Ficha estrategica curricular | Documento de trabajo curricular; no decision oficial | Define funcion estrategica del bloque 6-8 como cierre de FASE 1: Estado Conductivo. | Media-alta | `/workspace/agent_files/` | Complementa `clase6.md`, `clase7.md`, `clase8.md`, `MAPA_CURSO_V1.md` y `DECISIONES_CURRICULARES_V1.md`. No modifica documentos maestros. |
+| `GLOSARIO_TERMINOLOGIA_V1.md` | Glosario / lenguaje oficial | Recuperado; referencia terminologica principal | Define nomenclatura oficial, terminos a evitar y reglas de seguridad narrativa-medica. | Muy alta | `/workspace/agent_files/` | Debe regir `MAPA_CURSO_V1.md`, `DECISIONES_CURRICULARES_V1.md`, clases, guiones, web, materiales y agentes. |
+| `MAPA_CURSO_V1.md` | Mapa curricular / arquitectura de curso | Recuperado; mapa operativo de curso | Ordena estructura recomendada, fases, decisiones de fusion/resumen y control de nomenclatura. | Alta | `/workspace/agent_files/` | Se relaciona con `DECISIONES_CURRICULARES_V1.md`, `GLOSARIO_TERMINOLOGIA_V1.md`, `CONTROL_CLASES_V1.md` y clases 1-8. |
+| `clase1.md` | Transcripcion / material fuente de clase | Recuperado; referencia cercana, no reescritura aprobada | Contiene material fuente de Clase 1. Sirve como base documental disponible, pero no equivale por trazabilidad a `REESCRITURA_CLASE_1_V1`. | Alta | `/workspace/agent_files/transcripciones/` | Relacionada con `CONTROL_CLASES_V1.md`, `DECISIONES_CURRICULARES_V1.md` y `MAPA_CURSO_V1.md`. Referencia mas cercana para Clase 1. |
+| `clase2.md` | Transcripcion / material fuente de clase | Recuperado; referencia cercana, no reescritura aprobada | Contiene material fuente de Clase 2. Sirve como referencia, pero no equivale a `REESCRITURA_CLASE_2_V1`. | Alta | `/workspace/agent_files/transcripciones/` | Relacionada con Clase 4 por decision de fusion en `MAPA_CURSO_V1.md` y `DECISIONES_CURRICULARES_V1.md`. |
+| `clase3.md` | Transcripcion / material fuente de clase | Recuperado; referencia cercana, no reescritura aprobada | Contiene material fuente de Clase 3, identificada como pilar tecnico del Estado Conductivo. | Alta | `/workspace/agent_files/transcripciones/` | Relacionada con `MAPA_CURSO_V1.md`, `DECISIONES_CURRICULARES_V1.md` y futuro soporte visual. |
+| `clase4.md` | Transcripcion / material fuente de clase | Recuperado; referencia cercana, no reescritura aprobada | Contiene material fuente de Clase 4. Sirve como referencia, pero no equivale a `REESCRITURA_CLASE_4_V1`. | Media-alta | `/workspace/agent_files/transcripciones/` | Relacionada con Clase 2 por decision de fusion parcial. |
+| `clase5.md` | Transcripcion / material fuente de clase | Recuperado; referencia cercana, no reescritura aprobada | Contiene material fuente de Clase 5, con necesidad de revision etica y terminologica. | Alta | `/workspace/agent_files/transcripciones/` | Relacionada con `DECISIONES_CURRICULARES_V1.md`, `MAPA_CURSO_V1.md` y `GLOSARIO_TERMINOLOGIA_V1.md`. |
+| `clase6.md` | Transcripcion / material fuente de clase | Recuperado; referencia cercana, no reescritura aprobada | Contiene material fuente de Clase 6. Asociada al mecanismo fisiologico central del bloque 6-8. | Media-alta | `/workspace/agent_files/transcripciones/` | Relacionada con `FICHA_ESTRATEGICA_BLOQUE_6_8_V1 (1).md`. Inconsistencia con `CONTROL_CLASES_V1.md`, que la marca como pendiente. |
+| `clase7.md` | Transcripcion / material fuente de clase | Recuperado; referencia cercana, no reescritura aprobada | Contiene material fuente de Clase 7. Asociada a interpretacion del proceso y lectura contextual. | Media-alta | `/workspace/agent_files/transcripciones/` | Relacionada con `FICHA_ESTRATEGICA_BLOQUE_6_8_V1 (1).md`. Inconsistencia con `CONTROL_CLASES_V1.md`, que la marca como pendiente. |
+| `clase8.md` | Transcripcion / material fuente de clase | Recuperado; referencia cercana, no reescritura aprobada | Contiene material fuente de Clase 8. Asociada a integracion y cierre de FASE 1. | Media-alta | `/workspace/agent_files/transcripciones/` | Relacionada con `FICHA_ESTRATEGICA_BLOQUE_6_8_V1 (1).md`. Inconsistencia con `CONTROL_CLASES_V1.md`, que la marca como pendiente. |
+| `criterios-operativos-ceo.md` | Memoria operativa / criterio permanente | Registrado; criterio operativo permanente | Conserva reglas permanentes del CEO, arquitectura minima de agentes y principio de prudencia. | Muy alta | `/workspace/memory/` | Relacionado con `AGENTS.md` y `decisiones-estrategicas.md`. Limita aprobaciones, agentes y modificaciones documentales. |
+| `decisiones-estrategicas.md` | Memoria estrategica / decisiones aprobadas | Registrado; decisiones aprobadas por fundador | Registra documentos oficiales de referencia y decisiones cerradas, incluida `ESTRUCTURA_AUDIOVISUAL_MAESTRA_FASE_1_V1` como aprobada y congelada. | Muy alta | `/workspace/memory/` | Relacionado con futuras guias de guion, estructura audiovisual y trazabilidad de documentos maestros. |
+| `direccion-narrativa-web.md` | Memoria narrativa / orientacion futura | Registrado; orientacion exploratoria, no decision final | Conserva direccion emocional y narrativa futura para la web, sin abrir diseno ni modificar curriculo. | Media | `/workspace/memory/` | Relacionado con `GLOSARIO_TERMINOLOGIA_V1.md`, identidad narrativa y futuras piezas web/branding. |
+| `BACKUP_ZIP_ENTORNO_CEO_INNATEBIOLOGI_V1.zip` | Backup documental / archivo comprimido | Creado correctamente durante auditoria | Copia comprimida del entorno disponible del CEO: `AGENTS.md`, `agent_files` y `memory`. | Alta | `/workspace/output/backups/` | Respalda los documentos recuperados y sirve como punto de restauracion del entorno auditado. |
+
+## Observaciones de trazabilidad
+
+- Las reescrituras `REESCRITURA_CLASE_1_V1` a `REESCRITURA_CLASE_8_V1` no se incluyen como documentos existentes porque no fueron localizadas fisicamente.
+- Los archivos `clase1.md` a `clase8.md` deben tratarse como material fuente o transcripcion disponible, no como reescrituras aprobadas.
+- `ESTRUCTURA_AUDIOVISUAL_MAESTRA_FASE_1_V1` aparece registrada en `decisiones-estrategicas.md` como aprobada y congelada, pero no existe en el entorno actual como archivo independiente.
+- La carpeta recomendada es una propuesta de orden documental futuro. No implica que los archivos hayan sido movidos ni modificados.
+
+## Prioridad documental recomendada
+
+1. Alta prioridad de gobierno documental: `AGENTS.md`, `criterios-operativos-ceo.md`, `decisiones-estrategicas.md`, `GLOSARIO_TERMINOLOGIA_V1.md`.
+2. Alta prioridad curricular: `MAPA_CURSO_V1.md`, `DECISIONES_CURRICULARES_V1.md`, `CONTROL_CLASES_V1.md`.
+3. Alta o media-alta prioridad de fuente: `clase1.md` a `clase8.md`.
+4. Prioridad media de orientacion futura: `direccion-narrativa-web.md`.
+5. Prioridad alta de seguridad documental: `BACKUP_ZIP_ENTORNO_CEO_INNATEBIOLOGI_V1.zip`.
