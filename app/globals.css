@@ -45,6 +45,70 @@ body {
   mask-image: radial-gradient(circle at 50% 35%, black 0%, transparent 70%);
 }
 
+.bio-conductive-field {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(116deg, transparent 7%, rgba(217, 255, 240, 0.035) 7.2%, transparent 7.55%),
+    linear-gradient(64deg, transparent 24%, rgba(215, 196, 143, 0.028) 24.2%, transparent 24.55%),
+    linear-gradient(136deg, transparent 58%, rgba(154, 191, 139, 0.032) 58.2%, transparent 58.48%);
+  background-size: 360px 360px, 520px 520px, 620px 620px;
+  mask-image: radial-gradient(circle at 68% 32%, black 0%, transparent 62%);
+  opacity: 0.72;
+  animation: bio-conductive-breathe 18s ease-in-out infinite alternate;
+}
+
+.osmotic-veil {
+  position: fixed;
+  inset: -12%;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 74% 28%, rgba(217, 255, 240, 0.09), transparent 18%),
+    radial-gradient(circle at 62% 58%, rgba(154, 191, 139, 0.055), transparent 22%),
+    radial-gradient(circle at 88% 70%, rgba(215, 196, 143, 0.06), transparent 16%);
+  filter: blur(26px);
+  opacity: 0.62;
+  animation: osmotic-drift 24s ease-in-out infinite alternate;
+}
+
+.mineral-points {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, rgba(215, 196, 143, 0.38) 0 1px, transparent 1.8px),
+    radial-gradient(circle, rgba(217, 255, 240, 0.24) 0 1px, transparent 1.8px);
+  background-position:
+    82% 18%,
+    67% 54%;
+  background-size:
+    280px 280px,
+    360px 360px;
+  mask-image: radial-gradient(circle at 78% 40%, black 0%, transparent 54%);
+  opacity: 0.32;
+}
+
+.hero-particle-field {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+  mask-image:
+    radial-gradient(circle at 80% 300px, black 0%, black 24%, transparent 68%),
+    linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.3) 10%, black 28%, black 100%),
+    linear-gradient(180deg, black 0%, black 800px, rgba(0, 0, 0, 0.4) 1200px, rgba(0, 0, 0, 0.1) 100%);
+}
+
+@media (max-width: 640px) {
+  .hero-particle-field {
+    mask-image:
+      radial-gradient(circle at 76% 28%, black 0%, black 30%, transparent 74%),
+      linear-gradient(90deg, transparent 0%, black 18%, black 100%);
+  }
+}
+
 .luxury-border {
   border: 1px solid rgba(217, 255, 240, 0.13);
   background:
@@ -52,39 +116,6 @@ body {
     rgba(5, 12, 10, 0.78);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(22px);
-}
-
-.premium-image-shell {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  border: 1px solid rgba(215, 196, 143, 0.18);
-  background: #050c0a;
-  box-shadow:
-    0 42px 120px rgba(0, 0, 0, 0.42),
-    0 0 80px rgba(215, 196, 143, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
-}
-
-.premium-image-shell::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  pointer-events: none;
-  background:
-    linear-gradient(120deg, rgba(255, 255, 255, 0.12), transparent 26%),
-    radial-gradient(circle at 72% 22%, rgba(215, 196, 143, 0.18), transparent 28%);
-  mix-blend-mode: screen;
-}
-
-.premium-image-shell::after {
-  content: "";
-  position: absolute;
-  inset: auto 12% 0;
-  z-index: 3;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(215, 196, 143, 0.72), transparent);
 }
 
 .text-balance {
@@ -97,7 +128,34 @@ body {
     linear-gradient(90deg, transparent, rgba(215, 196, 143, 0.38), transparent);
 }
 
+@keyframes bio-conductive-breathe {
+  from {
+    opacity: 0.42;
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    opacity: 0.78;
+    transform: translate3d(1.4rem, -0.8rem, 0);
+  }
+}
+
+@keyframes osmotic-drift {
+  from {
+    transform: translate3d(-1rem, 0.4rem, 0) scale(1);
+  }
+
+  to {
+    transform: translate3d(1.2rem, -1rem, 0) scale(1.035);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
+  .bio-conductive-field,
+  .osmotic-veil {
+    animation: none !important;
+  }
+
   *,
   *::before,
   *::after {

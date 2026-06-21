@@ -23,6 +23,7 @@ export type MethodItem = {
 };
 
 export type ProgramItem = {
+  id: string;
   name: string;
   detail: string;
   tone: string;

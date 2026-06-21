@@ -5,9 +5,9 @@ export const en = {
   languageName: "English",
   direction: "ltr",
   metadata: {
-    title: "INNATEBIOLOGI | Sacred Biology for Luxury Wellness",
+    title: "INNATEBIOLOGI | Bioelectric Biology and Human Regeneration",
     description:
-      "A premium biological wellness platform integrating cellular intelligence, nervous system restoration, and nature-aligned performance."
+      "A premium human biological efficiency platform integrating osmosis, hydroelectrolytic balance, cellular conductivity, and nervous system restoration."
   },
   header: {
     nav: [
@@ -21,48 +21,47 @@ export const en = {
     languageLabel: "Change language"
   },
   hero: {
-    eyebrow: "Sacred biology meets precision wellness",
-    title: "Luxury biological intelligence for a body that remembers how to heal.",
-    copy:
-      "Elegant protocols for cellular repair, nervous-system depth, and regenerative vitality.",
+    eyebrow: "Osmosis, minerals, and bioelectric restoration",
+    title: "I do not have to learn… only remember.",
+    copy: "Memory makes me live.",
     primaryCta: "Programs",
     secondaryCta: "Method",
     imageAlt: "Regenerative human biology with bioelectric intelligence and luminous cellular vitality",
-    cardLabel: "Cellular intelligence",
-    cardCopy: "Organic systems, measurable repair, and quiet vitality in one living protocol.",
+    cardLabel: "Cellular conductivity",
+    cardCopy: "Minerals, osmosis, and nervous regulation in one living protocol.",
     rootLine: "return to the root"
   },
   problem: {
     eyebrow: "The problem",
-    title: "Modern wellness often treats symptoms as isolated fragments.",
+    title: "Modern wellness often ignores the body's quiet electricity.",
     signals: [
-      "Chronic fatigue hidden behind high performance",
-      "Nervous systems trained for urgency, not repair",
-      "Wellness plans that ignore biology's native sequencing"
+      "Fatigue held in tissues with low conductivity and poor osmotic exchange",
+      "Nervous systems trained for urgency, not regulation",
+      "Wellness plans that forget minerals, fluids, and biological electricity"
     ]
   },
   solution: {
     eyebrow: "The solution",
-    title: "A living wellness architecture that listens before it leads.",
+    title: "A living architecture that restores flow before demanding performance.",
     copy:
-      "INNATEBIOLOGI brings the intelligence of the forest, the precision of cellular science, and the quiet power of ritual into one premium biological system."
+      "INNATEBIOLOGI works with osmosis, hydroelectrolytic balance, bioelectric signaling, and nervous regulation to return regenerative efficiency to the human body."
   },
   method: {
     eyebrow: "The method",
     items: [
       {
-        title: "Nervous System Mapping",
-        copy: "We read stress architecture, recovery capacity, and autonomic rhythm before prescribing change.",
+        title: "Neuroelectric Mapping",
+        copy: "We read stress architecture, autonomic rhythm, and conductive capacity before prescribing change.",
         image: "/images/human-ecosystem-biology.png"
       },
       {
-        title: "Cellular Intelligence",
-        copy: "Protocols support mitochondrial clarity, circadian repair, mineral status, and adaptive resilience.",
+        title: "Mineral Intelligence",
+        copy: "Protocols support osmosis, mineral status, mitochondrial clarity, and circadian repair.",
         image: "/images/nature-cellular-intelligence.png"
       },
       {
-        title: "Ecological Integration",
-        copy: "Nutrition, movement, light, breath, and ritual are sequenced as one living operating system.",
+        title: "Integrated Regeneration",
+        copy: "Nutrition, light, breath, movement, and regulation are sequenced as one living circuit.",
         image: "/images/regenerative-program-still-life.png"
       }
     ]
@@ -70,24 +69,27 @@ export const en = {
   programs: {
     eyebrow: "Programs",
     title: "High-touch pathways for biological restoration.",
-    copy: "Each container is intentionally limited, deeply personalized, and built around measurable internal coherence.",
+    copy: "Each container is limited, personalized, and built around mineral coherence, cellular conductivity, and measurable regulation.",
     requestAccess: "Request access",
     items: [
       {
+        id: "reset-de-origen",
         name: "Origin Reset",
-        detail: "A 6-week recalibration for women and founders rebuilding energy from the root.",
+        detail: "A 6-week recalibration for women and founders rebuilding their energy from the root.",
         tone: "Foundation",
         image: "/images/nature-cellular-intelligence.png"
       },
       {
+        id: "soberania-celular",
         name: "Cellular Sovereignty",
-        detail: "A private 12-week intensive for metabolic repair, nervous system authority, and embodied longevity.",
-        tone: "Signature",
+        detail: "A 12-week private intensive for metabolic repair, nervous authority, and embodied longevity.",
+        tone: "Flagship",
         image: "/images/regenerative-program-still-life.png"
       },
       {
+        id: "protocolo-vivo",
         name: "The Living Protocol",
-        detail: "Year-round advisory for families, leaders, and retreats seeking high-touch biological stewardship.",
+        detail: "Annual advisory for families, leaders, and retreats seeking high-attention biological stewardship.",
         tone: "Private",
         image: "/images/human-ecosystem-biology.png"
       }
@@ -95,10 +97,10 @@ export const en = {
   },
   about: {
     eyebrow: "About",
-    title: "Built for people who sense that the body is not a machine. It is an ecosystem.",
+    title: "Built for people who sense that the body is not a machine. It is a living field of signals.",
     copy:
-      "The practice blends functional health strategy, nervous system literacy, ancestral nutrition, somatic intelligence, and reverence for the subtle biological signals that modern life teaches us to override.",
-    pillars: ["Root", "Rhythm", "Repair", "Radiance"]
+      "The practice blends human biological efficiency, nervous system literacy, mineral balance, somatic intelligence, and reverence for the subtle electrical signals that modern life teaches us to override.",
+    pillars: ["Osmosis", "Minerals", "Regulation", "Regeneration"]
   },
   content: {
     eyebrow: "Editorial archive",
@@ -123,9 +125,9 @@ export const en = {
   },
   finalCta: {
     eyebrow: "Begin",
-    title: "Return to the intelligence beneath performance.",
-    copy: "Private applications are reviewed for readiness, resonance, and the biological depth required for true transformation.",
+    title: "Return to the intelligent flow beneath regeneration.",
+    copy: "Private applications are reviewed for readiness, resonance, and the biological depth required to restore conductivity, regulation, and real efficiency.",
     cta: "Request private consultation"
   },
-  footer: "Luxury wellness technology rooted in sacred biology."
+  footer: "Luxury cinematic science rooted in human bioelectric biology."
 } satisfies SiteCopy;

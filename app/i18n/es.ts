@@ -5,9 +5,9 @@ export const es = {
   languageName: "Español",
   direction: "ltr",
   metadata: {
-    title: "INNATEBIOLOGI | Biología sagrada para bienestar de lujo",
+    title: "INNATEBIOLOGI | Biología bioeléctrica y regeneración humana",
     description:
-      "Una plataforma premium de bienestar biológico que integra inteligencia celular, restauración del sistema nervioso y rendimiento alineado con la naturaleza."
+      "Una plataforma premium de eficiencia biológica humana que integra osmosis, equilibrio hidroelectrolítico, conductividad celular y restauración del sistema nervioso."
   },
   header: {
     nav: [
@@ -21,48 +21,47 @@ export const es = {
     languageLabel: "Cambiar idioma"
   },
   hero: {
-    eyebrow: "Biología sagrada y bienestar de precisión",
-    title: "Inteligencia biológica de lujo para un cuerpo que recuerda cómo sanar.",
-    copy:
-      "Protocolos elegantes para reparación celular, sistema nervioso profundo y vitalidad regenerativa.",
+    eyebrow: "Osmosis, minerales y restauración bioeléctrica",
+    title: "No tengo que aprender… solo recordar.",
+    copy: "La memoria me hace vivir.",
     primaryCta: "Programas",
     secondaryCta: "Método",
     imageAlt: "Biología humana regenerativa con inteligencia bioeléctrica y vitalidad celular luminosa",
-    cardLabel: "Inteligencia celular",
-    cardCopy: "Sistemas orgánicos, reparación medible y vitalidad serena en un único protocolo vivo.",
+    cardLabel: "Conductividad celular",
+    cardCopy: "Minerales, osmosis y regulación nerviosa en un único protocolo vivo.",
     rootLine: "volver a la raíz"
   },
   problem: {
     eyebrow: "El problema",
-    title: "El bienestar moderno suele tratar los síntomas como fragmentos aislados.",
+    title: "El bienestar moderno suele ignorar la electricidad silenciosa del cuerpo.",
     signals: [
-      "Fatiga crónica oculta tras el alto rendimiento",
-      "Sistemas nerviosos entrenados para la urgencia, no para reparar",
-      "Planes de bienestar que ignoran la secuencia natural de la biología"
+      "Fatiga oculta en tejidos con baja conductividad y pobre intercambio osmótico",
+      "Sistemas nerviosos entrenados para la urgencia, no para la regulación",
+      "Planes de bienestar que olvidan minerales, fluidos y electricidad biológica"
     ]
   },
   solution: {
     eyebrow: "La solución",
-    title: "Una arquitectura viva del bienestar que escucha antes de dirigir.",
+    title: "Una arquitectura viva que restaura el flujo antes de exigir rendimiento.",
     copy:
-      "INNATEBIOLOGI reúne la inteligencia del bosque, la precisión de la ciencia celular y la fuerza silenciosa del ritual en un sistema biológico premium."
+      "INNATEBIOLOGI trabaja con osmosis, equilibrio hidroelectrolítico, señal bioeléctrica y regulación nerviosa para devolver eficiencia regenerativa al cuerpo humano."
   },
   method: {
     eyebrow: "El método",
     items: [
       {
-        title: "Mapa del sistema nervioso",
-        copy: "Leemos la arquitectura del estrés, la capacidad de recuperación y el ritmo autonómico antes de prescribir el cambio.",
+        title: "Mapa neuroeléctrico",
+        copy: "Leemos estrés, ritmo autonómico y capacidad de conducción antes de prescribir el cambio.",
         image: "/images/human-ecosystem-biology.png"
       },
       {
-        title: "Inteligencia celular",
-        copy: "Los protocolos sostienen la claridad mitocondrial, la reparación circadiana, el estado mineral y la resiliencia adaptativa.",
+        title: "Inteligencia mineral",
+        copy: "Los protocolos sostienen osmosis, estado mineral, claridad mitocondrial y reparación circadiana.",
         image: "/images/nature-cellular-intelligence.png"
       },
       {
-        title: "Integración ecológica",
-        copy: "Nutrición, movimiento, luz, respiración y ritual se secuencian como un único sistema vivo.",
+        title: "Regeneración integrada",
+        copy: "Nutrición, luz, respiración, movimiento y regulación se secuencian como un único circuito vivo.",
         image: "/images/regenerative-program-still-life.png"
       }
     ]
@@ -71,22 +70,25 @@ export const es = {
     eyebrow: "Programas",
     title: "Itinerarios de alta precisión para la restauración biológica.",
     copy:
-      "Cada acompañamiento es deliberadamente limitado, profundamente personalizado y construido en torno a una coherencia interna medible.",
+      "Cada acompañamiento es limitado, personalizado y construido en torno a coherencia mineral, conductividad celular y regulación medible.",
     requestAccess: "Solicitar acceso",
     items: [
       {
+        id: "reset-de-origen",
         name: "Reset de Origen",
         detail: "Una recalibración de 6 semanas para mujeres y fundadores que reconstruyen su energía desde la raíz.",
         tone: "Fundamento",
         image: "/images/nature-cellular-intelligence.png"
       },
       {
+        id: "soberania-celular",
         name: "Soberanía Celular",
         detail: "Un intensivo privado de 12 semanas para reparación metabólica, autoridad nerviosa y longevidad encarnada.",
         tone: "Insignia",
         image: "/images/regenerative-program-still-life.png"
       },
       {
+        id: "protocolo-vivo",
         name: "El Protocolo Vivo",
         detail: "Asesoría anual para familias, líderes y retiros que buscan una custodia biológica de alta atención.",
         tone: "Privado",
@@ -96,10 +98,10 @@ export const es = {
   },
   about: {
     eyebrow: "Sobre",
-    title: "Para quienes intuyen que el cuerpo no es una máquina. Es un ecosistema.",
+    title: "Para quienes intuyen que el cuerpo no es una máquina. Es un campo vivo de señales.",
     copy:
-      "La práctica integra estrategia de salud funcional, alfabetización del sistema nervioso, nutrición ancestral, inteligencia somática y reverencia por las señales biológicas sutiles que la vida moderna nos enseña a ignorar.",
-    pillars: ["Raíz", "Ritmo", "Reparación", "Resplandor"]
+      "La práctica integra eficiencia biológica humana, alfabetización del sistema nervioso, equilibrio mineral, inteligencia somática y reverencia por las señales eléctricas sutiles que la vida moderna nos enseña a ignorar.",
+    pillars: ["Osmosis", "Minerales", "Regulación", "Regeneración"]
   },
   content: {
     eyebrow: "Archivo editorial",
@@ -124,10 +126,10 @@ export const es = {
   },
   finalCta: {
     eyebrow: "Comenzar",
-    title: "Volver a la inteligencia que sostiene el rendimiento.",
+    title: "Volver al flujo inteligente que sostiene la regeneración.",
     copy:
-      "Las solicitudes privadas se revisan según preparación, resonancia y la profundidad biológica necesaria para una transformación real.",
+      "Las solicitudes privadas se revisan según preparación, resonancia y la profundidad biológica necesaria para restaurar conductividad, regulación y eficiencia real.",
     cta: "Solicitar consulta privada"
   },
-  footer: "Tecnología de bienestar de lujo arraigada en la biología sagrada."
+  footer: "Ciencia cinematográfica de lujo arraigada en biología bioeléctrica humana."
 } satisfies SiteCopy;
