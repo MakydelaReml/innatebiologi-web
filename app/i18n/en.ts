@@ -1,131 +1,75 @@
 import type { SiteCopy } from "./types";
 
+// NOTE: EN is a placeholder pending careful human translation.
+// For now it mirrors the canonical ES copy (claim-free) so the /en route
+// never shows the old wellness/luxuxy/cure claims. The ES voice is canonical.
 export const en = {
   locale: "en",
   languageName: "English",
   direction: "ltr",
   metadata: {
-    title: "INNATEBIOLOGI | Sacred Biology for Luxury Wellness",
+    title: "INNATEBIOLOGI — Learn to read your own body",
     description:
-      "A premium biological wellness platform integrating cellular intelligence, nervous system restoration, and nature-aligned performance."
+      "A school with a single subject: learning to read your own body. By the hand, without haste, at your own pace."
   },
   header: {
     nav: [
-      { label: "Problem", href: "#problem" },
-      { label: "Solution", href: "#solution" },
-      { label: "Method", href: "#method" },
-      { label: "Programs", href: "#programs" },
-      { label: "About", href: "#about" }
+      { label: "Qué es", href: "#que-es" },
+      { label: "De la mano", href: "#de-la-mano" },
+      { label: "Qué no es", href: "#que-no-es" },
+      { label: "Recorrido", href: "#recorrido" }
     ],
-    apply: "Apply",
+    contact: "Escríbenos",
     languageLabel: "Change language"
   },
   hero: {
-    eyebrow: "Sacred biology meets precision wellness",
-    title: "Luxury biological intelligence for a body that remembers how to heal.",
+    eyebrow: "",
+    title: "Aprende a leer tu propio cuerpo.",
     copy:
-      "Elegant protocols for cellular repair, nervous-system depth, and regenerative vitality.",
-    primaryCta: "Programs",
-    secondaryCta: "Method",
-    imageAlt: "Regenerative human biology with bioelectric intelligence and luminous cellular vitality",
-    cardLabel: "Cellular intelligence",
-    cardCopy: "Organic systems, measurable repair, and quiet vitality in one living protocol.",
-    rootLine: "return to the root"
+      "Una escuela con una sola materia: entender la lengua en la que tu cuerpo te habla —desde siempre, aunque casi nadie nos la enseñó—. De la mano, sin prisa, a tu ritmo.",
+    whisper:
+      "No vienes a aprender algo nuevo. Vienes a recordar algo que tu cuerpo nunca olvidó.",
+    primaryCta: "Conoce el recorrido",
+    secondaryCta: "Escríbenos",
+    imageAlt: "The body as a living system"
   },
-  problem: {
-    eyebrow: "The problem",
-    title: "Modern wellness often treats symptoms as isolated fragments.",
-    signals: [
-      "Chronic fatigue hidden behind high performance",
-      "Nervous systems trained for urgency, not repair",
-      "Wellness plans that ignore biology's native sequencing"
-    ]
-  },
-  solution: {
-    eyebrow: "The solution",
-    title: "A living wellness architecture that listens before it leads.",
+  queEs: {
+    eyebrow: "Qué es",
     copy:
-      "INNATEBIOLOGI brings the intelligence of the forest, the precision of cellular science, and the quiet power of ritual into one premium biological system."
+      "Esto no es una consulta, ni una clínica, ni un sitio donde alguien te arregle. Es una escuela. Te enseñamos a mirar: a ver el porqué que hay debajo de lo que sientes, en lugar de ponerle un nombre y cerrar la puerta. Y es honesto desde el primer minuto: el que cura, si cura, es tu cuerpo —ese médico que llevas dentro—. Nosotros, como mucho, jardineros: te ayudamos a quitar de en medio lo que le estorba, y la vida hace el resto."
   },
-  method: {
-    eyebrow: "The method",
-    items: [
-      {
-        title: "Nervous System Mapping",
-        copy: "We read stress architecture, recovery capacity, and autonomic rhythm before prescribing change.",
-        image: "/images/human-ecosystem-biology.png"
-      },
-      {
-        title: "Cellular Intelligence",
-        copy: "Protocols support mitochondrial clarity, circadian repair, mineral status, and adaptive resilience.",
-        image: "/images/nature-cellular-intelligence.png"
-      },
-      {
-        title: "Ecological Integration",
-        copy: "Nutrition, movement, light, breath, and ritual are sequenced as one living operating system.",
-        image: "/images/regenerative-program-still-life.png"
-      }
-    ]
-  },
-  programs: {
-    eyebrow: "Programs",
-    title: "High-touch pathways for biological restoration.",
-    copy: "Each container is intentionally limited, deeply personalized, and built around measurable internal coherence.",
-    requestAccess: "Request access",
-    items: [
-      {
-        name: "Origin Reset",
-        detail: "A 6-week recalibration for women and founders rebuilding energy from the root.",
-        tone: "Foundation",
-        image: "/images/nature-cellular-intelligence.png"
-      },
-      {
-        name: "Cellular Sovereignty",
-        detail: "A private 12-week intensive for metabolic repair, nervous system authority, and embodied longevity.",
-        tone: "Signature",
-        image: "/images/regenerative-program-still-life.png"
-      },
-      {
-        name: "The Living Protocol",
-        detail: "Year-round advisory for families, leaders, and retreats seeking high-touch biological stewardship.",
-        tone: "Private",
-        image: "/images/human-ecosystem-biology.png"
-      }
-    ]
-  },
-  about: {
-    eyebrow: "About",
-    title: "Built for people who sense that the body is not a machine. It is an ecosystem.",
+  deDondeViene: {
+    eyebrow: "De dónde viene",
     copy:
-      "The practice blends functional health strategy, nervous system literacy, ancestral nutrition, somatic intelligence, and reverence for the subtle biological signals that modern life teaches us to override.",
-    pillars: ["Root", "Rhythm", "Repair", "Radiance"]
+      "No nos lo inventamos esta mañana. Viene de una línea seria, que se puede rastrear: René Quinton → Ángel Gracia → nosotros. Más de un siglo entendiendo el agua, la sal y el medio en el que la vida, dentro de ti, se enciende y circula. Lo recogemos, lo ordenamos y lo enseñamos despacio y por escrito."
   },
-  content: {
-    eyebrow: "Editorial archive",
+  deLaMano: {
+    eyebrow: "Cómo se camina: De la mano",
+    copy:
+      "El recorrido se llama De la mano, y se vive así: de la mano. Te sostienen tres: la escuela, que te enseña a mirar; los asesores, que están en tu caso —el tuyo, no el del vecino—; y tú, que observas y, al final, decides. A tu ritmo. Sin diagnósticos, sin prisas fingidas. Cada semana, una mirada nueva. Empieza por su suelo, el Estado Conductivo —ese fondo de agua y sal donde la vida late y circula—. Lo demás llega después, cada cosa en su orden."
+  },
+  queNoEs: {
+    eyebrow: "Qué no es",
+    title: "Decirlo de frente protege.",
     items: [
-      {
-        title: "The Biology of Stillness",
-        image: "/images/human-ecosystem-biology.png"
-      },
-      {
-        title: "Mitochondria as Sacred Infrastructure",
-        image: "/images/nature-cellular-intelligence.png"
-      },
-      {
-        title: "Why High Performers Need Deep Repair",
-        image: "/images/regenerative-program-still-life.png"
-      },
-      {
-        title: "The Tree of Life as a Wellness Architecture",
-        image: "/images/cinematic-biology-hero.png"
-      }
+      "No es una consulta ni una clínica. Aquí nadie te diagnostica ni te receta.",
+      "No es una promesa de curación. No te prometemos curarte nada —y quien te lo prometa, desconfía—.",
+      "No es un método de moda ni un atajo. El cuerpo va en procesos, con su tempo.",
+      "No vende pastillas ni fórmulas. No es wellness ni biohacking.",
+      "No sustituye a tu médico ni a tu tratamiento. Suma, no resta. Ante una urgencia, el médico, sin dudarlo."
     ]
   },
-  finalCta: {
-    eyebrow: "Begin",
-    title: "Return to the intelligence beneath performance.",
-    copy: "Private applications are reviewed for readiness, resonance, and the biological depth required for true transformation.",
-    cta: "Request private consultation"
+  recorrido: {
+    eyebrow: "El recorrido",
+    copy:
+      "La primera etapa son ocho paradas, una por semana, en orden —cada una abre la puerta de la siguiente—. Aprenderás a volver a mirar tu cuerpo, a distinguir una etiqueta que tranquiliza de una causa que explica, y a leer el agua, los minerales y los procesos que sostienen lo que sientes. No hace falta entenderlo todo hoy: el mapa se entiende caminándolo."
   },
-  footer: "Luxury wellness technology rooted in sacred biology."
+  cierre: {
+    eyebrow: "Escríbenos",
+    copy:
+      "Esto no se construye con prisa ni con ruido, sino despacio y de la mano. Si algo de esto te ha resonado, escríbenos: te contamos cómo entrar cuando se abra. Seguimos de la mano.",
+    cta: "Escríbenos",
+    email: "hello@innatebiologi.com"
+  },
+  footer: "INNATEBIOLOGI · Vivo desde la naturaleza."
 } satisfies SiteCopy;

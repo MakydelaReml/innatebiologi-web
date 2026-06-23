@@ -16,24 +16,6 @@ export type NavItem = {
   href: string;
 };
 
-export type MethodItem = {
-  title: string;
-  copy: string;
-  image: string;
-};
-
-export type ProgramItem = {
-  name: string;
-  detail: string;
-  tone: string;
-  image: string;
-};
-
-export type ContentItem = {
-  title: string;
-  image: string;
-};
-
 export type SiteCopy = {
   locale: PublicLocale;
   languageName: string;
@@ -44,56 +26,44 @@ export type SiteCopy = {
   };
   header: {
     nav: NavItem[];
-    apply: string;
+    contact: string;
     languageLabel: string;
   };
   hero: {
     eyebrow: string;
     title: string;
     copy: string;
+    whisper: string;
     primaryCta: string;
     secondaryCta: string;
     imageAlt: string;
-    cardLabel: string;
-    cardCopy: string;
-    rootLine: string;
   };
-  problem: {
+  queEs: {
     eyebrow: string;
-    title: string;
-    signals: string[];
-  };
-  solution: {
-    eyebrow: string;
-    title: string;
     copy: string;
   };
-  method: {
+  deDondeViene: {
     eyebrow: string;
-    items: MethodItem[];
-  };
-  programs: {
-    eyebrow: string;
-    title: string;
     copy: string;
-    items: ProgramItem[];
-    requestAccess: string;
   };
-  about: {
+  deLaMano: {
     eyebrow: string;
-    title: string;
     copy: string;
-    pillars: string[];
   };
-  content: {
-    eyebrow: string;
-    items: ContentItem[];
-  };
-  finalCta: {
+  queNoEs: {
     eyebrow: string;
     title: string;
+    items: string[];
+  };
+  recorrido: {
+    eyebrow: string;
+    copy: string;
+  };
+  cierre: {
+    eyebrow: string;
     copy: string;
     cta: string;
+    email: string;
   };
   footer: string;
 };
