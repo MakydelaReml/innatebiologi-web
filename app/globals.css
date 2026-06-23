@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
   --ink: #211d17;
   --ink-soft: #3d352b;
@@ -1540,3 +1536,6 @@ h1 {
   letter-spacing: 0.06em;
   text-align: center;
 }
+
+/* reunion port: la página carga visible (sin fade page-awake ni cortina) */
+body { animation: none !important; opacity: 1 !important; }
