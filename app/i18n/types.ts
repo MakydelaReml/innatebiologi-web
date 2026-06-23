@@ -16,6 +16,7 @@ export type NavItem = {
   href: string;
 };
 
+// Copia 100% verbatim de Claude (Mensajes 21 + 24). GLM no escribe copy (Mensaje 23).
 export type SiteCopy = {
   locale: PublicLocale;
   languageName: string;
@@ -26,44 +27,31 @@ export type SiteCopy = {
   };
   header: {
     nav: NavItem[];
-    contact: string;
-    languageLabel: string;
   };
   hero: {
-    eyebrow: string;
-    lema: string[];
-    title: string;
+    headline: string;
     copy: string;
-    whisper: string;
     primaryCta: string;
     secondaryCta: string;
-    imageAlt: string;
   };
-  queEs: {
-    eyebrow: string;
-    copy: string;
-  };
-  deDondeViene: {
-    eyebrow: string;
+  inteligencia: {
     copy: string;
   };
   deLaMano: {
-    eyebrow: string;
+    lead: string;
     copy: string;
   };
-  queNoEs: {
-    eyebrow: string;
-    title: string;
-    items: string[];
-  };
   recorrido: {
-    eyebrow: string;
+    lead: string;
+    copy: string;
+  };
+  piesEnElSuelo: {
+    lead: string;
     copy: string;
   };
   cierre: {
-    eyebrow: string;
+    lead: string;
     copy: string;
-    cta: string;
     email: string;
   };
   footer: string;
