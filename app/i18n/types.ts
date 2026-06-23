@@ -31,6 +31,7 @@ export type SiteCopy = {
   };
   hero: {
     eyebrow: string;
+    lema: string[];
     title: string;
     copy: string;
     whisper: string;

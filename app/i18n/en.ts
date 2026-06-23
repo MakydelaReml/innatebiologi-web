@@ -24,6 +24,7 @@ export const en = {
   },
   hero: {
     eyebrow: "",
+    lema: ["Primero el cuerpo conduce.", "Después el cuerpo vive."],
     title: "Aprende a leer tu propio cuerpo.",
     copy:
       "Una escuela con una sola materia: entender la lengua en la que tu cuerpo te habla —desde siempre, aunque casi nadie nos la enseñó—. De la mano, sin prisa, a tu ritmo.",
