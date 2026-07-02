@@ -11,6 +11,8 @@
   --sand: #d9c6aa;
   --gold: #a7937c;
   --gold-soft: rgba(167, 147, 124, 0.28);
+  --accent-deep: #7a5f3f;
+  --accent-light: #c9ad84;
   --olive: #4c563d;
   --moss: #303829;
   --line: rgba(246, 239, 227, 0.16);
@@ -401,11 +403,18 @@ nav a:hover::after {
 .root-line,
 .phase-label {
   margin: 0 0 18px;
-  color: var(--gold);
+  color: var(--accent-deep);
   font-size: 0.72rem;
   font-weight: 820;
   letter-spacing: 0.22em;
   text-transform: uppercase;
+}
+
+/* Kicker sobre fondos oscuros (hero, approach, collaborate): dorado claro para contraste AA */
+.hero .kicker,
+.approach .kicker,
+.collaborate .kicker {
+  color: var(--accent-light);
 }
 
 h1,
@@ -537,7 +546,7 @@ h3 {
   left: 50%;
   z-index: 2;
   transform: translateX(-50%);
-  color: rgba(239, 227, 208, 0.72);
+  color: var(--ink-soft);
   white-space: nowrap;
 }
 
@@ -1539,3 +1548,24 @@ h1 {
 
 /* reunion port: la página carga visible (sin fade page-awake ni cortina) */
 body { animation: none !important; opacity: 1 !important; }
+
+/* Accesibilidad por teclado — focus visible de marca.
+   No altera el aspecto en uso con ratón; solo al navegar con Tab.
+   Outline gold sobre fondo claro, ivory sobre fondo oscuro (approach/hero). */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.approach a:focus-visible,
+.collaborate a:focus-visible,
+.site-header a:focus-visible,
+.hero a:focus-visible {
+  outline-color: var(--ivory);
+}
