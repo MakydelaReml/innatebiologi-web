@@ -1,0 +1,166 @@
+/* Carta de bienvenida — paleta cacao/terracota/crema (canon bienvenida.html).
+   Aislada de la landing V4_CANON mediante CSS Module. */
+
+.page {
+  --ink: #463629;
+  --ink-soft: #6b5947;
+  --accent: #a9754c;
+  --accent-deep: #8a5a36;
+  --cream: #fbf6ec;
+  --glow: #ecd9b8;
+
+  min-height: 100dvh;
+  display: flex;
+
+  font-family: "Iowan Old Style", "Hoefler Text", "Palatino Linotype", Palatino,
+    "Book Antiqua", Georgia, "Times New Roman", serif;
+  color: var(--ink);
+
+  background:
+    radial-gradient(130% 90% at 50% -10%, #fbf4e7 0%, #f3ead9 42%, #e9dbc4 76%, #e2d2b8 100%);
+  background-attachment: fixed;
+}
+
+.page::selection,
+.page ::selection {
+  background: rgba(169, 117, 76, 0.22);
+  color: var(--ink);
+}
+
+.glow {
+  position: fixed;
+  inset: -20% -10% auto -10%;
+  height: 90vh;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(closest-side, var(--glow), transparent 72%);
+  opacity: 0.5;
+  animation: welcome-breathe 9s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+@keyframes welcome-breathe {
+  0%, 100% { opacity: 0.42; transform: scale(1); }
+  50% { opacity: 0.78; transform: scale(1.05); }
+}
+
+.content {
+  margin: auto;
+  width: 100%;
+  max-width: 37em;
+  padding: clamp(2.75rem, 7vw, 5.5rem) clamp(1.25rem, 5vw, 2rem);
+  text-align: center;
+}
+
+.mark {
+  margin: 0 auto 1.75rem;
+  width: 30px;
+  height: 36px;
+  color: var(--accent);
+  opacity: 0.9;
+}
+.mark svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.content h1 {
+  margin: 0 0 1.9rem;
+  font-size: clamp(2rem, 6vw, 3.05rem);
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-shadow: none;
+}
+
+.content p {
+  margin: 0 0 1.6em;
+  font-size: clamp(1.06rem, 0.6vw + 0.95rem, 1.2rem);
+  line-height: 1.9;
+  color: var(--ink-soft);
+  text-align: left;
+}
+
+.closing {
+  margin-top: 2.6em;
+  margin-bottom: 2.6em;
+  padding-top: 2.2em;
+  position: relative;
+  font-style: italic;
+  font-size: clamp(1.18rem, 0.9vw + 1rem, 1.4rem);
+  line-height: 1.7;
+  color: var(--ink);
+  text-align: center;
+}
+.closing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2.4rem;
+  height: 1px;
+  background: var(--accent);
+  opacity: 0.55;
+}
+
+.content .button {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 1.06rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  color: var(--cream);
+  background: linear-gradient(160deg, var(--accent) 0%, var(--accent-deep) 100%);
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow:
+    0 6px 18px -8px rgba(110, 72, 40, 0.55),
+    0 1px 0 rgba(255, 255, 255, 0.18) inset;
+  transition:
+    transform 0.45s cubic-bezier(0.2, 0.7, 0.2, 1),
+    box-shadow 0.45s ease,
+    filter 0.45s ease;
+}
+.content .button:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.03);
+  box-shadow:
+    0 12px 26px -10px rgba(110, 72, 40, 0.6),
+    0 1px 0 rgba(255, 255, 255, 0.22) inset;
+}
+.content .button:active {
+  transform: translateY(0);
+}
+.content .button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+/* Entrada: aparición suave, escalonada, como una respiración */
+.content > * {
+  animation: welcome-rise 1.15s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.content > *:nth-child(1) { animation-delay: 0.05s; }
+.content > *:nth-child(2) { animation-delay: 0.18s; }
+.content > *:nth-child(3) { animation-delay: 0.34s; }
+.content > *:nth-child(4) { animation-delay: 0.50s; }
+.content > *:nth-child(5) { animation-delay: 0.66s; }
+.content > *:nth-child(6) { animation-delay: 0.82s; }
+.content > *:nth-child(7) { animation-delay: 1.00s; }
+
+@keyframes welcome-rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow { animation: none; opacity: 0.55; }
+  .content > * { animation: none; opacity: 1; transform: none; }
+}
