@@ -12,7 +12,6 @@ export default function ReunionBody() {
         <span className="brand-name">INNATEBIOLOGI</span>
       </a>
       <nav aria-label="Navegación principal">
-        <a href="/bienvenida">Bienvenida</a>
         <a href="#sistema">Sistema</a>
         <a href="#recorrido">El camino</a>
         <a href="#existe">Qué existe</a>
