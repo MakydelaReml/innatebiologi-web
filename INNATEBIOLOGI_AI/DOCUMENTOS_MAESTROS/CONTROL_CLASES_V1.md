@@ -1,105 +1,16 @@
-\# CONTROL DE CLASES â€” INNATEBIOLOGI v1
+# CONTROL DE CLASES - REFERENCIA CANONICA
 
+**Estado:** referencia documental, no fuente editable.
+**Fuente canonica operativa:** `INNATEBIOLOGI_AI/AGENTES/CURSO/CONTROL_CLASES_V1.md`
 
+Este archivo existe solo para evitar dos fuentes de verdad dentro del nucleo `INNATEBIOLOGI_AI/`.
 
-Este archivo controla el estado de producciÃ³n, transcripciÃ³n, anÃ¡lisis y mejora de cada clase del curso.
+El estado de transcripcion, analisis, workbook y decision de cada clase debe consultarse y actualizarse en:
 
+`INNATEBIOLOGI_AI/AGENTES/CURSO/CONTROL_CLASES_V1.md`
 
+## Regla
 
-\## Estado general
+No mantener tablas paralelas de control de clases en `DOCUMENTOS_MAESTROS/`.
 
-
-
-\- Clases transcritas: 1 a 5 y 16
-
-\- Clases analizadas: 1 a 5 y 16
-
-\- Clases pendientes de transcribir: 6 a 15 y 17 a 18
-
-\- Workbooks originales revisados: 1 a 5
-
-\- Mapa del curso V1: creado
-
-\- Glosario de terminologÃ­a V1: creado
-
-
-
-\---
-
-
-
-\## Tabla de control
-
-
-
-| Clase | TranscripciÃ³n | AnÃ¡lisis | Workbook original | Estado |
-
-|---|---|---|---|---|
-
-| Clase 01 | Hecha | Hecho | Revisado | Reordenar / mejorar |
-
-| Clase 02 | Hecha | Hecho | Revisado | Fusionar con Clase 04 |
-
-| Clase 03 | Hecha | Hecho | Revisado | Mantener y crear soporte visual |
-
-| Clase 04 | Hecha | Hecho | Revisado | Fusionar con Clase 02 |
-
-| Clase 05 | Hecha | Hecho | Revisado | Mantener con revisiÃ³n Ã©tica |
-
-| Clase 06 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 07 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 08 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 09 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 10 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 11 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 12 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 13 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 14 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 15 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 16 | Hecha | Hecho | Pendiente | Fuente protegida; revisar canon antes de publicar |
-
-| Clase 17 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 18 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-
-
-\---
-
-
-
-\## PrÃ³xima prioridad
-
-
-
-Transcribir las clases 6 a 18 antes de rediseÃ±ar workbooks.
-
-
-
-\## Regla de producciÃ³n
-
-
-
-No rediseÃ±ar materiales finales hasta tener:
-
-
-
-1\. TranscripciÃ³n completa.
-
-2\. AnÃ¡lisis individual.
-
-3\. ClasificaciÃ³n por fase.
-
-4\. RevisiÃ³n de lenguaje.
-
-5\. DecisiÃ³n del CEO.
+Si una decision maestra afecta al estado de una clase, debe registrarse en la fuente canonica operativa y, si procede, citarse desde el indice maestro o desde el documento maestro correspondiente.

@@ -22,6 +22,7 @@ Documentos de gobierno académico y científico.
 Archivos importantes:
 - CANON_INNATEBIOLOGI_V1.md — autoridad superior de identidad, método, lenguaje y narrativa
 - ARQUITECTURA_REPOSITORIOS_V1.md — reparto de responsabilidades entre núcleo, academia y web
+- CONTROL_CLASES_V1.md - referencia; la fuente canonica operativa vive en AGENTES/CURSO/CONTROL_CLASES_V1.md
 - MAPA_CURSO_V1.md
 - MATRIZ_CORRESPONDENCIA_CIENTIFICA_V1.md
 
@@ -189,7 +190,7 @@ INNATEBIOLOGI_AI
   - CURSO
 
 Archivos importantes:
-- CONTROL_CLASES_V1.md - control operativo de clases
+- CONTROL_CLASES_V1.md - fuente canonica operativa de control de clases
 - ANALISIS_CLASES/ - analisis por clase
 - TRANSCRIPCIONES_ORIGINALES/ - fuentes originales protegidas
 - RESCATES/ - manifiestos de procedencia y decisiones conscientes
