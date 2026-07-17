@@ -128,6 +128,29 @@ body {
     linear-gradient(90deg, transparent, rgba(215, 196, 143, 0.38), transparent);
 }
 
+.ActionButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  border: 1px solid #cdbfa9;
+  background: rgba(255, 255, 255, 0.55);
+  padding: 0.625rem 1rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #675c4f;
+  transition:
+    background 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.ActionButton:hover {
+  background: #fffaf2;
+  color: #41392f;
+  transform: translateY(-1px);
+}
+
 @keyframes bio-conductive-breathe {
   from {
     opacity: 0.42;
