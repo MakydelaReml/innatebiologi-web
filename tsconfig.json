@@ -20,5 +20,12 @@
     ]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "archive",
+    "graphify-out",
+    "app/graphify-out",
+    "tmp_character_sheets",
+    "INNATEBIOLOGI_AI"
+  ]
 }

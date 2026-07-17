@@ -4,3 +4,14 @@ out
 dist
 .env*
 *.log
+
+# Resultados regenerables de herramientas locales
+graphify-out/
+app/graphify-out/
+
+# Material de trabajo local: se conserva en el equipo, no se publica en Git
+output/
+tmp_character_sheets/
+
+# Configuración local dependiente de esta máquina
+.codex/

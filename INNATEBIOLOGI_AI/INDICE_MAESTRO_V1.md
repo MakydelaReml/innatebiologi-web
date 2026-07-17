@@ -15,6 +15,26 @@ Este archivo sirve para:
 
 # ESTRUCTURA GENERAL
 
+## DOCUMENTOS_MAESTROS
+
+Documentos de gobierno académico y científico.
+
+Archivos importantes:
+- CANON_INNATEBIOLOGI_V1.md — autoridad superior de identidad, método, lenguaje y narrativa
+- ARQUITECTURA_REPOSITORIOS_V1.md — reparto de responsabilidades entre núcleo, academia y web
+- MAPA_CURSO_V1.md
+- MATRIZ_CORRESPONDENCIA_CIENTIFICA_V1.md
+
+Orden de autoridad:
+1. CANON_INNATEBIOLOGI_V1.md
+2. decisiones maestras posteriores
+3. glosario y matriz científica vigentes
+4. mapas, guiones y documentos de identidad
+5. transcripciones y material original
+6. borradores y propuestas de agentes
+
+---
+
 ## 04_NOTEBOOKLM
 
 Sistema de conocimiento educativo.
@@ -137,6 +157,24 @@ Agentes actuales:
 - COURSE_AGENT_PROMPT_V1.md
 - CONTENT_AGENT_PROMPT_V1.md
 - SUPPORT_AGENT_PROMPT_V1.md
+
+---
+
+# AGENTES CEO
+
+Sistema operativo ejecutivo del proyecto.
+
+Ruta:
+
+INNATEBIOLOGI_AI
+- AGENTES
+  - CEO
+
+Archivos importantes:
+- CEO_ROLES.md
+- CEO_WORKFLOWS.md
+- CEO_DECISION_PROTOCOL.md
+- PLAN_OPERATIVO_EQUIPO_REMOTO_V1.md - estructura remota para fundador, equipo, plataformas, ChatGPT Business y produccion ComfyUI
 
 ---
 
