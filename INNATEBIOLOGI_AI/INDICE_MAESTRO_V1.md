@@ -23,7 +23,8 @@ Archivos importantes:
 - CANON_INNATEBIOLOGI_V1.md — autoridad superior de identidad, método, lenguaje y narrativa
 - ARQUITECTURA_REPOSITORIOS_V1.md — reparto de responsabilidades entre núcleo, academia y web
 - CONTROL_CLASES_V1.md - referencia; la fuente canonica operativa vive en AGENTES/CURSO/CONTROL_CLASES_V1.md
-- MAPA_CURSO_V1.md
+- GLOSARIO_TERMINOLOGIA_V1.md - lenguaje operativo vigente para agentes, curso, Bitácora y materiales públicos
+- MAPA_CURSO_V1.md - mapa maestro de transición; no fija por sí solo fusiones ni decisiones clínicas
 - MATRIZ_CORRESPONDENCIA_CIENTIFICA_V1.md
 
 Orden de autoridad:
