@@ -25,7 +25,8 @@ Archivos importantes:
 - CONTROL_CLASES_V1.md - referencia; la fuente canonica operativa vive en AGENTES/CURSO/CONTROL_CLASES_V1.md
 - GLOSARIO_TERMINOLOGIA_V1.md - lenguaje operativo vigente para agentes, curso, Bitácora y materiales públicos
 - MAPA_CURSO_V1.md - mapa maestro de transición; no fija por sí solo fusiones ni decisiones clínicas
-- MATRIZ_CORRESPONDENCIA_CIENTIFICA_V1.md
+- MATRIZ_CORRESPONDENCIA_CIENTIFICA_V1.md - matriz interna de trabajo; separa ciencia establecida, síntesis pedagógica, hipótesis, metáfora y afirmaciones congeladas
+- MATRIZ_CIENTIFICA_MANIFIESTO_RESCATE_V1.md - procedencia, integridad y límites de uso de la matriz; no implica validación clínica
 
 Orden de autoridad:
 1. CANON_INNATEBIOLOGI_V1.md
