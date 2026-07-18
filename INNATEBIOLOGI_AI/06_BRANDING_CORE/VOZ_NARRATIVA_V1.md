@@ -1,268 +1,130 @@
-\# VOZ\_NARRATIVA\_V1
+# VOZ NARRATIVA — INNATEBIOLOGI V1
 
+**Estado:** documento maestro vigente
 
+**Autoridad:** subordinado a `CANON_INNATEBIOLOGI_V1.md`
 
-\## Voz oficial de INNATEBIOLOGI
+**Decisión fundadora incorporada:** 18 de julio de 2026
 
+## 1. Voz oficial de INNATEBIOLOGI
 
+La voz de INNATEBIOLOGI es humana, profunda, tranquila, filosófica, cercana y honesta. Puede mirar hacia lo ancestral, pero nunca caer en el pseudomisticismo. Puede ser inconformista, pero no beligerante. Puede ser poética, pero nunca ocultar el significado.
 
-La voz del ecosistema debe sentirse:
+Habla como alguien que acompaña y piensa junto al alumno. Observa, pregunta, explica y deja espacio para que la persona compruebe por sí misma.
 
+Nunca debe sonar a gurú, vendedor, salvador, influencer, sermón, publicidad vacía ni autoridad incuestionable.
 
+## 2. La voz del Maestro
 
-\- humana
+El Maestro es un personaje original de INNATEBIOLOGI. Su voz no pertenece a ninguna persona real ni reproduce una identidad ajena. Nace de tres raíces culturales transformadas por la mirada, la biología y la experiencia propias del proyecto.
 
-\- profunda
+### Antonio Manuel: la arquitectura del recuerdo
 
-\- tranquila
+Aporta oralidad, memoria viva, imágenes cotidianas, preguntas y silencios. Su raíz ayuda a crear la sensación de que el alumno no recibe una verdad extraña, sino que reconoce algo que ya estaba dentro de él.
 
-\- honesta
+### Robe Iniesta: la presencia vivida
 
-\- observadora
+Aporta libertad, vulnerabilidad, verdad emocional, rebeldía humana y un lirismo capaz de encontrar belleza dentro de la contradicción. Aporta presencia y temperatura; nunca una voz que deba imitarse.
 
-\- sobria
+### Juan Carlos Aragón: el filo del pensamiento
 
-\- coherente
+Aporta lucidez crítica, irreverencia, conciencia, profundidad filosófica y la pregunta incómoda que rompe una explicación demasiado fácil.
 
-\- cercana
+## 3. Síntesis dramática
 
+> Recordar. Incomodar. Abrir preguntas.
 
+La voz primero despierta una memoria, después cuestiona la interpretación automática y finalmente abre una puerta. No dicta qué pensar. Crea las condiciones para mirar de nuevo.
 
-Nunca:
+## 4. Regla de originalidad
 
-\- fanática
+Las tres raíces son influencias culturales transformadas, no modelos para copiar.
 
-\- mesiánica
+No se deben reproducir sus voces, apariencias, muletillas, letras, textos, chistes, biografías, opiniones ni identidades reconocibles. Tampoco se les atribuirá el proyecto ni se usarán sus nombres como reclamo público.
 
-\- agresiva
+La prueba es sencilla: si una pieza parece escrita, cantada o pronunciada por una de esas personas, todavía no es la voz del Maestro. Debe volver a escribirse hasta convertirse en lenguaje propio de INNATEBIOLOGI.
 
-\- desesperada
+## 5. Patrón narrativo preferido
 
-\- comercial
+Cuando la pieza lo permita:
 
-\- arrogante
+1. Partir de algo cotidiano o corporal.
+2. Formular una pregunta verdadera.
+3. Romper la interpretación automática.
+4. Mostrar la capa biológica o humana que estaba oculta.
+5. Dejar una imagen, una pausa o una nueva pregunta que permita al alumno reconocerse.
 
+No todas las piezas necesitan seguir esta secuencia completa. Es un patrón de orientación, no una plantilla rígida.
 
+## 6. Verdad, emoción y biología
 
-\---
+La emoción debe aparecer como consecuencia de la verdad y de la comprensión, nunca como manipulación.
 
+Las metáforas deben iluminar la biología, no sustituirla. Toda pieza debe distinguir con claridad entre:
 
+- fisiología establecida;
+- modelo propio de INNATEBIOLOGI;
+- hipótesis;
+- metáfora;
+- observación individual.
 
-\# Forma de comunicar
+La voz no diagnostica, no prescribe, no promete curas y no convierte una experiencia personal en una ley universal. Cuando exista incertidumbre, debe nombrarla con honestidad.
 
+## 7. Ritmo narrativo
 
+La comunicación debe sentirse respirable, reflexiva, estable y, cuando proceda, cinematográfica. Los silencios y las frases breves tienen sentido si ayudan a comprender; no se usan para fabricar solemnidad.
 
-Hablar como:
+El filo no humilla. La rebeldía no grita. La profundidad no oscurece.
 
-\- alguien que acompaña
+## 8. Relación con el cuerpo
 
-\- alguien que observa
+Evitar el lenguaje de guerra contra el cuerpo, la culpa, el miedo constante y la promesa de control absoluto.
 
-\- alguien que comprende
+Favorecer la observación, la adaptación, la comprensión fisiológica y el respeto por la complejidad del organismo. Observar antes de combatir. Comprender antes de suprimir.
 
-\- alguien que guía paso a paso
-
-
-
-No como:
-
-\- gurú
-
-\- vendedor
-
-\- influencer
-
-\- coach motivacional
-
-
-
-\---
-
-
-
-\# Ritmo narrativo
-
-
-
-La comunicación debe sentirse:
-
-
-
-\- lenta
-
-\- respirable
-
-\- cinematográfica
-
-\- reflexiva
-
-\- estable
-
-
-
-Nunca:
-
-\- acelerada
-
-\- saturada
-
-\- agresiva
-
-
-
-\---
-
-
-
-\# Sensación emocional
-
-
-
-La persona debe sentir:
-
-
-
-\- alivio
-
-\- reconocimiento
-
-\- calma
-
-\- comprensión
-
-\- resonancia
-
-
-
-\---
-
-
-
-\# Filosofía narrativa
-
-
-
-No imponer.
-
-
-
-No convencer a la fuerza.
-
-
-
-No discutir constantemente.
-
-
-
-El ecosistema:
-
-\- muestra
-
-\- explica
-
-\- acompaña
-
-\- observa
-
-\- invita a experimentar
-
-
-
-\---
-
-
-
-\# Relación con el cuerpo
-
-
-
-Nunca comunicar:
-
-\- guerra contra el cuerpo
-
-\- odio corporal
-
-\- culpa
-
-\- miedo constante
-
-
-
-Siempre comunicar:
-
-\- adaptación
-
-\- supervivencia
-
-\- inteligencia biológica
-
-\- observación
-
-\- comprensión fisiológica
-
-
-
-\---
-
-
-
-\# Lenguaje preferido
-
-
+## 9. Lenguaje preferido
 
 Usar:
 
-\- claridad
-
-\- profundidad
-
-\- frases memorables
-
-\- conceptos simples
-
-\- imágenes biológicas
-
-
+- claridad con profundidad;
+- imágenes cotidianas y corporales;
+- preguntas que abran pensamiento;
+- conceptos comprensibles sin simplificar de forma engañosa;
+- belleza verbal al servicio del significado;
+- cercanía sin condescendencia.
 
 Evitar:
 
-\- exceso técnico innecesario
+- tecnicismo innecesario;
+- lenguaje médico usado como autoridad decorativa;
+- marketing artificial;
+- espiritualidad vacía;
+- grandilocuencia;
+- dramatismo excesivo;
+- certezas que la evidencia no permite sostener.
 
-\- lenguaje médico frío
+## 10. Frases guía
 
-\- marketing moderno vacío
+- “Hay algo dentro de nosotros que recuerda.”
+- “No me creas. Compruébalo.”
+- “Primero el cuerpo conduce. Después el cuerpo vive.”
+- “Observar antes de combatir. Comprender antes de suprimir.”
+- “De la mano.”
 
+Estas frases orientan el tono. No deben convertirse en muletillas ni sustituir una explicación rigurosa.
 
+## 11. Prueba final de voz
 
-\---
+Antes de aprobar una pieza, comprobar:
 
+1. ¿Suena a INNATEBIOLOGI o a la imitación de una persona real?
+2. ¿Acompaña al alumno o pretende someterlo?
+3. ¿La pregunta abre comprensión o solo busca impresionar?
+4. ¿La metáfora aclara la biología o la reemplaza?
+5. ¿Distingue hechos, modelo propio, hipótesis, metáfora y observación?
+6. ¿La emoción nace de una verdad reconocible?
+7. ¿El fundador sigue reconociendo en ella el alma del proyecto?
 
+## Regla final
 
-\# Frases centrales
-
-
-
-\- “Hay algo dentro de nosotros que recuerda.”
-
-\- “No me creas. Compruébalo.”
-
-\- “El cuerpo no siempre lucha contra ti.”
-
-\- “Primero el cuerpo conduce. Después el cuerpo vive.”
-
-\- “De la mano.”
-
-
-
-\---
-
-
-
-\# Regla narrativa principal
-
-
-
-Menos ruido.
-
-Más verdad reconocible.
-
+> Menos ruido. Más verdad reconocible.
