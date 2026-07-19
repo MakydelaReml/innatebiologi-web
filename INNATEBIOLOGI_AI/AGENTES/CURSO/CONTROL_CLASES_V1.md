@@ -24,7 +24,7 @@ Los materiales localizados en la PR #1 permanecen como **pendientes de rescate**
 
 | Clase | Fuente en `main` | Análisis en `main` | Workbook en `main` | Estado operativo |
 |---|---|---|---|---|
-| Clase 01 | Sí | Sí | No | Fuente protegida y análisis operativo; guiones y workbook pendientes; no publicable |
+| Clase 01 | Sí | Sí | No | Fuente y guiones históricos protegidos; arquitectura V1 contrastada; V3 y workbook pendientes; no publicable |
 | Clase 02 | No | No | No | Pendiente de rescate verificable desde PR #1 |
 | Clase 03 | No | No | No | Pendiente de rescate verificable desde PR #1 |
 | Clase 04 | No | No | No | Pendiente de rescate verificable desde PR #1 |
@@ -47,7 +47,7 @@ Los materiales localizados en la PR #1 permanecen como **pendientes de rescate**
 
 Rescatar clase a clase las fuentes reales de la PR #1, evitando copiar archivos vacíos, duplicados o materiales contradictorios. Cada rebanada debe actualizar esta tabla en el mismo commit.
 
-La siguiente unidad recomendada es el **contraste de guiones de la Clase 01**, porque la fuente y su análisis ya están protegidos, mientras los guiones y la producción histórica aún deben ordenarse bajo el Canon vigente.
+La siguiente unidad recomendada es la **redacción del guion V3 de la Clase 01** desde la arquitectura contrastada, sin reutilizar como autoridad ninguno de los guiones históricos. El workbook y la producción visual siguen fuera de esa rebanada.
 
 ## 5. Regla de producción
 

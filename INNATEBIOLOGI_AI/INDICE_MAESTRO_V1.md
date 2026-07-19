@@ -38,6 +38,22 @@ Orden de autoridad:
 
 ---
 
+## 03_CURSO_MASTER
+
+Arquitectura y desarrollo operativo de las clases.
+
+Ruta:
+
+INNATEBIOLOGI_AI
+└── 03_CURSO_MASTER
+
+Documento operativo vigente para Clase 01:
+- `ARQUITECTURA_GUION_CLASE_01_V1.md` — decisión de formato híbrido, estructura dramática, límites y criterios para redactar el futuro V3; pendiente de aprobación del fundador.
+
+Los guiones históricos que alimentan esa decisión no viven aquí como versiones paralelas. Se conservan protegidos en `AGENTES/CURSO/RESCATES/CLASE_01/GUIONES_HISTORICOS/`.
+
+---
+
 ## 04_NOTEBOOKLM
 
 Sistema de conocimiento educativo.
@@ -198,7 +214,7 @@ Archivos importantes:
 - RESCATES/ - manifiestos de procedencia y decisiones conscientes
 
 Nota vigente:
-- Clase 01 integrada como fuente protegida desde la PR #1. El análisis operativo vigente vive en `AGENTES/CURSO/ANALISIS_CLASES/CLASE_01_ANALISIS.md`; los dos análisis antiguos se conservan en `AGENTES/CURSO/RESCATES/CLASE_01/` y no son autoridad ni material publicable.
+- Clase 01 integrada como fuente protegida desde la PR #1. El análisis operativo vigente vive en `AGENTES/CURSO/ANALISIS_CLASES/CLASE_01_ANALISIS.md`; sus análisis y guiones antiguos se conservan en `AGENTES/CURSO/RESCATES/CLASE_01/` sin autoridad operativa. La decisión vigente para el futuro V3 vive en `03_CURSO_MASTER/ARQUITECTURA_GUION_CLASE_01_V1.md`.
 - Clase 16 integrada como fuente protegida desde PR #1 / commit e63d906. No publicable como clase final sin revision canonica, cientifica y decision del fundador.
 
 ---
