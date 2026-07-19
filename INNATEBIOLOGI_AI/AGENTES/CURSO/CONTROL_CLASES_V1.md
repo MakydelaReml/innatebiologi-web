@@ -14,8 +14,8 @@ Los materiales localizados en la PR #1 permanecen como **pendientes de rescate**
 
 ## 2. Estado general
 
-- Clase 16: fuente y análisis integrados como material protegido; no es una clase final publicable.
-- Clases 1–15 y 17–18: existe material localizado en la PR #1, pero todavía no está integrado de forma verificable en `main`.
+- Clases 01 y 16: fuente y análisis integrados como material protegido; no son clases finales publicables.
+- Clases 02–15 y 17–18: existe material localizado en la PR #1, pero todavía no está integrado de forma verificable en `main`.
 - Mapa del curso, glosario, matriz científica y voz narrativa: integrados y subordinados al Canon.
 - Bitácora del alumno: integrada como herramienta de autorregistro; no diagnostica ni prescribe.
 - PR #1: debe permanecer abierta hasta rescatar o descartar conscientemente todo su contenido único.
@@ -24,7 +24,7 @@ Los materiales localizados en la PR #1 permanecen como **pendientes de rescate**
 
 | Clase | Fuente en `main` | Análisis en `main` | Workbook en `main` | Estado operativo |
 |---|---|---|---|---|
-| Clase 01 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 01 | Sí | Sí | No | Fuente protegida y análisis operativo; guiones y workbook pendientes; no publicable |
 | Clase 02 | No | No | No | Pendiente de rescate verificable desde PR #1 |
 | Clase 03 | No | No | No | Pendiente de rescate verificable desde PR #1 |
 | Clase 04 | No | No | No | Pendiente de rescate verificable desde PR #1 |
@@ -47,7 +47,7 @@ Los materiales localizados en la PR #1 permanecen como **pendientes de rescate**
 
 Rescatar clase a clase las fuentes reales de la PR #1, evitando copiar archivos vacíos, duplicados o materiales contradictorios. Cada rebanada debe actualizar esta tabla en el mismo commit.
 
-La siguiente unidad recomendada es la **Clase 01**, porque sostiene la entrada narrativa y pedagógica del curso y dispone de material fuente, análisis, guiones y producción visual que deben ordenarse bajo el Canon vigente.
+La siguiente unidad recomendada es el **contraste de guiones de la Clase 01**, porque la fuente y su análisis ya están protegidos, mientras los guiones y la producción histórica aún deben ordenarse bajo el Canon vigente.
 
 ## 5. Regla de producción
 
