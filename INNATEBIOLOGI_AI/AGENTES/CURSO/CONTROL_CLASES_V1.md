@@ -1,106 +1,72 @@
-\# CONTROL DE CLASES — INNATEBIOLOGI v1
+# CONTROL DE CLASES — INNATEBIOLOGI V1
 
+**Estado:** fuente canónica operativa
 
+**Autoridad:** subordinado a `CANON_INNATEBIOLOGI_V1.md` y a las decisiones expresas del fundador
 
-Este archivo controla el estado de producción, transcripción, análisis y mejora de cada clase del curso.
+**Alcance:** refleja lo que está realmente integrado en `innatebiologi-web/main`, no solo lo localizado en ramas históricas.
 
+## 1. Regla de estado
 
+Una clase solo puede figurar como **integrada** cuando sus archivos útiles están en `main`, tienen una ruta estable y su procedencia está identificada.
 
-\## Estado general
+Los materiales localizados en la PR #1 permanecen como **pendientes de rescate** hasta que una rebanada específica los traslade y verifique. Los archivos vacíos no cuentan como transcripción ni análisis.
 
+## 2. Estado general
 
+- Clase 16: fuente y análisis integrados como material protegido; no es una clase final publicable.
+- Clases 1–15 y 17–18: existe material localizado en la PR #1, pero todavía no está integrado de forma verificable en `main`.
+- Mapa del curso, glosario, matriz científica y voz narrativa: integrados y subordinados al Canon.
+- Bitácora del alumno: integrada como herramienta de autorregistro; no diagnostica ni prescribe.
+- PR #1: debe permanecer abierta hasta rescatar o descartar conscientemente todo su contenido único.
 
-\- Clases transcritas: 1 a 5 y 16
+## 3. Tabla de control
 
-\- Clases analizadas: 1 a 5 y 16
-
-\- Clases pendientes de transcribir: 6 a 15 y 17 a 18
-
-\- Workbooks originales revisados: 1 a 5
-
-\- Mapa del curso V1: creado
-
-\- Glosario de terminología V1: creado
-
-
-
-\---
-
-
-
-\## Tabla de control
-
-
-
-| Clase | Transcripción | Análisis | Workbook original | Estado |
-
+| Clase | Fuente en `main` | Análisis en `main` | Workbook en `main` | Estado operativo |
 |---|---|---|---|---|
+| Clase 01 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 02 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 03 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 04 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 05 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 06 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 07 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 08 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 09 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 10 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 11 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 12 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 13 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 14 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 15 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 16 | Sí | Sí | No | Fuente protegida; requiere revisión y decisión antes de cualquier publicación |
+| Clase 17 | No | No | No | Pendiente de rescate verificable desde PR #1 |
+| Clase 18 | No | No | No | Pendiente de rescate verificable desde PR #1 |
 
-| Clase 01 | Hecha | Hecho | Revisado | Reordenar / mejorar |
+## 4. Próxima prioridad
 
-| Clase 02 | Hecha | Hecho | Revisado | Fusionar con Clase 04 |
+Rescatar clase a clase las fuentes reales de la PR #1, evitando copiar archivos vacíos, duplicados o materiales contradictorios. Cada rebanada debe actualizar esta tabla en el mismo commit.
 
-| Clase 03 | Hecha | Hecho | Revisado | Mantener y crear soporte visual |
+La siguiente unidad recomendada es la **Clase 01**, porque sostiene la entrada narrativa y pedagógica del curso y dispone de material fuente, análisis, guiones y producción visual que deben ordenarse bajo el Canon vigente.
 
-| Clase 04 | Hecha | Hecho | Revisado | Fusionar con Clase 02 |
+## 5. Regla de producción
 
-| Clase 05 | Hecha | Hecho | Revisado | Mantener con revisión ética |
+No declarar una clase lista ni rediseñar su material final hasta tener:
 
-| Clase 06 | Pendiente | Pendiente | Pendiente | Transcribir |
+1. fuente original útil e identificada;
+2. análisis individual;
+3. clasificación dentro del mapa del curso;
+4. revisión de lenguaje y correspondencia científica;
+5. decisión del fundador;
+6. rutas e índice actualizados.
 
-| Clase 07 | Pendiente | Pendiente | Pendiente | Transcribir |
+## 6. Clase 16 — límites vigentes
 
-| Clase 08 | Pendiente | Pendiente | Pendiente | Transcribir |
+Rutas integradas:
 
-| Clase 09 | Pendiente | Pendiente | Pendiente | Transcribir |
+- `INNATEBIOLOGI_AI/AGENTES/CURSO/TRANSCRIPCIONES_ORIGINALES/CLASE_16_TRANSCRIPCION.md`
+- `INNATEBIOLOGI_AI/AGENTES/CURSO/TRANSCRIPCIONES_ORIGINALES/CLASE_16_TRANSCRIPCION_ORIGINAL.srt`
+- `INNATEBIOLOGI_AI/AGENTES/CURSO/ANALISIS_CLASES/CLASE_16_ANALISIS.md`
+- `INNATEBIOLOGI_AI/AGENTES/CURSO/RESCATES/CLASE_16_MANIFIESTO_RESCATE.md`
 
-| Clase 10 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 11 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 12 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 13 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 14 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 15 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 16 | Hecha | Hecho | Pendiente | Fuente protegida; revisar canon antes de publicar |
-
-| Clase 17 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-| Clase 18 | Pendiente | Pendiente | Pendiente | Transcribir |
-
-
-
-\---
-
-
-
-\## Próxima prioridad
-
-
-
-Transcribir las clases 6 a 18 antes de rediseñar workbooks.
-
-
-
-\## Regla de producción
-
-
-
-No rediseñar materiales finales hasta tener:
-
-
-
-1\. Transcripción completa.
-
-2\. Análisis individual.
-
-3\. Clasificación por fase.
-
-4\. Revisión de lenguaje.
-
-5\. Decisión del CEO.
-
+Su presencia en `main` preserva la fuente. No la convierte en consejo médico, currículum vigente ni material publicable tal cual.
