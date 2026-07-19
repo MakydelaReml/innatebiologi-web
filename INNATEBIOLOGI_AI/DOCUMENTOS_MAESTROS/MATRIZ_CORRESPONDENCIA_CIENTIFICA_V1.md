@@ -55,7 +55,7 @@ La correspondencia más defendible es:
 | ID | Concepto o afirmación del proyecto | Correspondencia científica | Código | Formulación publicable | Límite / corrección necesaria | Revisión | Clases |
 |---|---|---|---|---|---|---|---|
 | F-01 | **Inteligencia Biológica Innata** | Homeostasis, alostasis y capacidad adaptativa | B | “Nombre propio para explicar cómo múltiples sistemas regulan y adaptan el organismo.” | No llamarla fuerza, órgano, diagnóstico ni mecanismo único. La autorregulación tiene límites y puede fallar. | R1 | 01–05 |
-| F-02 | **Tabiat** | Tradiciones greco-árabes/Unani sobre la capacidad reguladora de la naturaleza | D | “Raíz histórica y filosófica que inspira el proyecto.” | La antigüedad de una idea no sustituye evidencia contemporánea. Mantener como referencia cultural, no prueba. | R0 + historiador/a | 01 |
+| F-02 | **Raíces históricas de la capacidad reguladora** | Tradiciones greco-árabes/Unani sobre la capacidad reguladora de la naturaleza | D | “Antecedentes históricos y filosóficos que dialogan con el proyecto.” | La antigüedad de una idea no sustituye evidencia contemporánea. Mantener como contexto cultural, no prueba ni terminología del curso. | R0 + historiador/a | 01 |
 | F-03 | “El cuerpo recuerda” | Memoria neural e inmunitaria, plasticidad, adaptación y algunas marcas epigenéticas | B/D | “La experiencia deja huellas en distintos sistemas biológicos.” | No existe una memoria corporal única que explique todos los síntomas. Evitar herencia epigenética humana afirmada sin fuente concreta. | R1 | 01, 07 |
 | F-04 | Cuerpo como **hardware/software** | Distinción pedagógica entre estructura y procesamiento de información | D | Puede usarse como analogía inicial. | El organismo no es un ordenador: materia, información y función están acopladas. | R0 | 01 |
 | F-05 | “El síntoma es información” | Los síntomas y signos pueden orientar una evaluación clínica | B | “Un síntoma es una señal que necesita contexto, evolución y, a veces, evaluación profesional.” | No implica que el alumno pueda descubrir su causa ni tratarse observando una señal aislada. | R2 | 02, 07, 15 |
@@ -164,7 +164,7 @@ Estas afirmaciones aparecen de forma explícita o implícita en el material audi
 
 | Bloque | Conservar | Corregir antes de guion definitivo |
 |---|---|---|
-| Clases 01–02 | Cambio de mirada, sistemas, proceso, árbol, señales con contexto | Sustituir “mismas causas raíz” por causalidad multifactorial; presentar Tabiat como historia y la IBI como marco propio. |
+| Clases 01–02 | Cambio de mirada, sistemas, proceso, árbol, señales con contexto | Sustituir “mismas causas raíz” por causalidad multifactorial; presentar la Inteligencia Biológica Innata como marco propio. |
 | Clases 03–06 | Compartimentos, ósmosis, gradientes, riñón, medición, experimento visual y fases internas del proceso | Reescritura científica completa de sal/agua. Conservar los rangos como nomenclatura pedagógica y de autorregistro, sin convertirlos en diagnóstico, objetivo automático ni regla universal; eliminar “lavado mineral”, comparación OMS–suero y prescripción general de sal. |
 | Clases 07–08 | Tendencias, fotograma/película, puente entre fases | Definir qué variables observables pertenecen realmente a cada marco y qué no puede inferirse. |
 | Clases 09–12 | Ecosistema alimentario, densidad, digestión y cuestionamiento de dogmas | Separar pH por compartimentos; evitar “terreno” como causa total; basar recomendaciones en patrones alimentarios. |

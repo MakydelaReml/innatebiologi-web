@@ -9,7 +9,7 @@
 ## 1. Identificación
 
 - **Clase:** 01
-- **Título histórico:** Fundamentos y el despertar del Tabiat
+- **Título histórico de trabajo:** Fundamentos y el despertar de la inteligencia biológica
 - **Función provisional:** umbral narrativo y pedagógico anterior al desarrollo del Estado Conductivo
 - **Decisión curricular:** pendiente de aprobación del fundador después de una reescritura específica
 
@@ -31,7 +31,6 @@ Elementos reconocibles que deben preservarse:
 
 | Concepto histórico | Capa correcta | Formulación operativa |
 |---|---|---|
-| Tabiat | Raíz histórica y metáfora narrativa | Referencia cultural vinculada a tradiciones Unani; inspira la idea de capacidad adaptativa, pero su antigüedad no demuestra una afirmación fisiológica. |
 | Inteligencia Biológica Innata | Modelo INNATEBIOLOGI | Marco pedagógico para observar homeostasis, alostasis, regulación y adaptación; no es un órgano, fuerza única, diagnóstico ni promesa de resultado. |
 | Hardware/software | Metáfora | Ayuda a hablar de estructura, información y función, recordando que un organismo no es un ordenador. |
 | Causas expiatorias | Herramienta pedagógica | Sirve para cuestionar explicaciones fragmentadas o automáticas; no autoriza a negar genes, edad, estrés, diagnósticos, tratamientos ni determinantes sociales. |
@@ -43,7 +42,7 @@ Elementos reconocibles que deben preservarse:
 La revisión de esta clase debe apoyarse especialmente en:
 
 - `F-01`: Inteligencia Biológica Innata como síntesis pedagógica compatible;
-- `F-02`: Tabiat como raíz histórica y filosófica;
+- `F-02`: raíces históricas de la capacidad reguladora como contexto cultural, no como terminología del curso;
 - `F-03`: «El cuerpo recuerda» como síntesis biológica y metáfora;
 - `F-04`: hardware/software como analogía limitada;
 - `F-08`: causas expiatorias reformuladas sin desacreditar diagnósticos o tratamientos;
@@ -55,7 +54,7 @@ La revisión de esta clase debe apoyarse especialmente en:
 La fuente original conserva expresiones que no pueden pasar a un guion, una app, una clase pública ni una recomendación sin revisión específica. Quedan congeladas:
 
 - promesas o testimonios presentados como curación de diabetes, hipertensión, colesterol u otras enfermedades;
-- llamar al Tabiat «único y verdadero médico» como afirmación literal;
+- presentar la inteligencia interna como «único y verdadero médico» en sentido literal;
 - afirmar que beber agua sin sed enferma o que el agua ordinaria lava minerales;
 - convertir la sal, una proporción sal/líquido o cualquier pauta de ingesta en regla universal;
 - presentar fármacos, medicina, profesionales o recomendaciones sanitarias como engaño o enemigo;
@@ -81,8 +80,7 @@ La incomodidad debe romper una interpretación automática, no fabricar desconfi
 3. **Ruptura:** observar una adaptación no significa que el cuerpo sea infalible ni que pueda corregirlo todo solo.
 4. **Capa biológica:** presentar regulación, adaptación y límites con lenguaje comprensible.
 5. **Capa propia:** introducir Inteligencia Biológica Innata como nombre del marco pedagógico.
-6. **Raíz histórica:** situar Tabiat como procedencia cultural, no como prueba.
-7. **Cierre:** «No me creas. Compruébalo» entendido como observar, contrastar y preguntar con responsabilidad.
+6. **Cierre:** «No me creas. Compruébalo» entendido como observar, contrastar y preguntar con responsabilidad.
 
 ## 8. Decisión operativa
 
@@ -94,4 +92,4 @@ La incomodidad debe romper una interpretación automática, no fabricar desconfi
 
 ## 9. Próxima acción
 
-Contrastar los guiones históricos V1/V2 y la reescritura con este análisis. El resultado deberá ser una propuesta de arquitectura de guion, no una publicación automática.
+Los guiones históricos quedan protegidos para una decisión creativa del fundador. Ningún agente debe convertir el contraste en una lista de elementos eliminados; el futuro V3 conservará el núcleo del método y reformulará únicamente lo necesario para expresarlo con responsabilidad.

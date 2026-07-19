@@ -198,7 +198,7 @@ Archivos importantes:
 - RESCATES/ - manifiestos de procedencia y decisiones conscientes
 
 Nota vigente:
-- Clase 01 integrada como fuente protegida desde la PR #1. El análisis operativo vigente vive en `AGENTES/CURSO/ANALISIS_CLASES/CLASE_01_ANALISIS.md`; los dos análisis antiguos se conservan en `AGENTES/CURSO/RESCATES/CLASE_01/` y no son autoridad ni material publicable.
+- Clase 01 integrada como fuente protegida desde la PR #1. El análisis operativo vigente vive en `AGENTES/CURSO/ANALISIS_CLASES/CLASE_01_ANALISIS.md`; sus análisis y guiones antiguos se conservan en `AGENTES/CURSO/RESCATES/CLASE_01/` sin autoridad operativa. La arquitectura del futuro V3 sigue pendiente de decisión expresa del fundador.
 - Clase 16 integrada como fuente protegida desde PR #1 / commit e63d906. No publicable como clase final sin revision canonica, cientifica y decision del fundador.
 
 ---

@@ -28,7 +28,6 @@ Una capa no debe presentarse como si fuera otra.
 | **Estado Vivo** | Segunda gran fase interna del modelo. Ordena el aprendizaje sobre el sistema vivo y adaptativo; no es una categoría clínica. |
 | **Bitácora** | Herramienta de autorregistro: conserva, calcula y muestra tendencias de lo anotado para facilitar la relectura. No prescribe acciones automáticas. |
 | **Proporción sal/líquido** | Relación anotada entre gramos de sal y litros de líquido. Dentro del método se expresa en g/L; una cifra aislada no diagnostica ni ordena avanzar, subir o bajar nada. |
-| **Tabiat** | Referencia histórica, ancestral o interna vinculada a fuentes Unani. No es el nombre público principal del método ni una promesa de curación. |
 
 ---
 
@@ -54,7 +53,7 @@ Nunca:
 | Llave Verde | Estado Vivo |
 | Base salina | Registro de sal/líquido o base hidromineral, según el contexto |
 | Sistema de Alimentación Unani | Método o marco INNATEBIOLOGI, si corresponde |
-| Tabiat como concepto principal | Inteligencia Biológica Innata como marco pedagógico |
+| Terminología histórica usada como concepto principal | Inteligencia Biológica Innata como marco pedagógico |
 | Restauración biológica | Observación, aprendizaje o mejora de hábitos; precisar siempre el alcance |
 | Curativo / curar | No usar como promesa; describir la observación o el aprendizaje concreto |
 | Proporciones que curan | Proporción sal/líquido anotada dentro de la Bitácora |

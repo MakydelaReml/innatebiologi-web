@@ -54,18 +54,25 @@ No sirve para:
 
 Ante cualquier contradicción prevalecen el Canon, el Glosario, la Matriz científica, la Voz narrativa y las decisiones posteriores del fundador.
 
-## 4. Material deliberadamente excluido de esta rebanada
+## 4. Guiones históricos rescatados sin decisión creativa
 
-No se integran todavía:
+En la rebanada posterior se preservaron, con nombre estable, los cuatro documentos históricos de guion:
+
+| Ruta protegida actual | Ruta original en PR #1 | Blob Git original |
+|---|---|---|
+| `GUIONES_HISTORICOS/GUION_AUDIOVISUAL_CLASE_01_EL_ARBOL_QUE_RECUERDA_V1.md` | `03_CURSO_MASTER/GUION_AUDIOVISUAL_CLASE_01_EL_ARBOL_QUE_RECUERDA_V1.md` | `2b1e4596f99472b5e58f84f44619d1248f5363e5` |
+| `GUIONES_HISTORICOS/GUION_AUDIOVISUAL_CLASE_01_LA_PUERTA_EL_ARBOL_QUE_RECUERDA_V2.md` | `03_CURSO_MASTER/GUION_AUDIOVISUAL_CLASE_01_LA_PUERTA_EL_ARBOL_QUE_RECUERDA_V2.md` | `5cfee05d3141c163caf55655aec081158a4ee5ed` |
+| `GUIONES_HISTORICOS/GUION_GRABACION_CLASE_01_V1.md` | `03_CURSO_MASTER/GUION_GRABACION_CLASE_1_V1.md` | `35b90ff9d51649dbd91d3eefdc23eab49362ae17` |
+| `GUIONES_HISTORICOS/REESCRITURA_CLASE_01_V1.md` | `03_CURSO_MASTER/REESCRITURA_CLASE_1_V1 (1).md` | `0e78df6a47b8e2273af541f3c793843f1a9fc34e` |
+
+Los cuatro textos son fuentes protegidas: conservan memoria y opciones creativas, pero no son autoridad ni material publicable. Su rescate no aprueba una arquitectura, duración, formato ni lista de exclusiones para el futuro V3.
+
+Continúan pendientes, sin descartar:
 
 - workbook original y workbook reconstruido;
 - diagnóstico pedagógico histórico;
-- guiones audiovisual V1/V2 y guion de grabación;
-- reescritura histórica;
 - producción visual, model sheets, storyboard y flujos de ComfyUI.
-
-Estos materiales no se descartan. Forman una unidad posterior de contraste y producción; traerlos ahora mezclaría fuente, análisis, guion e imágenes antes de decidir la arquitectura vigente de la clase.
 
 ## 5. Criterio de cierre
 
-La Clase 01 queda **rescatada como fuente**, no terminada como producto. Su siguiente hito es comparar los guiones históricos contra el análisis operativo, sin tocar todavía la publicación ni la app del alumno.
+La Clase 01 queda **rescatada como fuente y memoria de guion**, no terminada como producto. La arquitectura del V3 corresponde a una decisión creativa del fundador. El criterio de partida será conservar el núcleo del método y reformular afirmaciones concretas cuando sea necesario, nunca eliminar elementos esenciales por iniciativa de un agente.
