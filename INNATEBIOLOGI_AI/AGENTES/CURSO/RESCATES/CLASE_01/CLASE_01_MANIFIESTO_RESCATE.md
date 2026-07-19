@@ -54,9 +54,9 @@ No sirve para:
 
 Ante cualquier contradicción prevalecen el Canon, el Glosario, la Matriz científica, la Voz narrativa y las decisiones posteriores del fundador.
 
-## 4. Guiones históricos rescatados y contrastados
+## 4. Guiones históricos rescatados sin decisión creativa
 
-En la rebanada posterior de contraste se preservaron, con nombre estable, los cuatro documentos históricos de guion:
+En la rebanada posterior se preservaron, con nombre estable, los cuatro documentos históricos de guion:
 
 | Ruta protegida actual | Ruta original en PR #1 | Blob Git original |
 |---|---|---|
@@ -65,7 +65,7 @@ En la rebanada posterior de contraste se preservaron, con nombre estable, los cu
 | `GUIONES_HISTORICOS/GUION_GRABACION_CLASE_01_V1.md` | `03_CURSO_MASTER/GUION_GRABACION_CLASE_1_V1.md` | `35b90ff9d51649dbd91d3eefdc23eab49362ae17` |
 | `GUIONES_HISTORICOS/REESCRITURA_CLASE_01_V1.md` | `03_CURSO_MASTER/REESCRITURA_CLASE_1_V1 (1).md` | `0e78df6a47b8e2273af541f3c793843f1a9fc34e` |
 
-La decisión operativa vive en `03_CURSO_MASTER/ARQUITECTURA_GUION_CLASE_01_V1.md`. Los cuatro textos anteriores son fuentes protegidas: conservan memoria y opciones creativas, pero no son autoridad ni material publicable.
+Los cuatro textos son fuentes protegidas: conservan memoria y opciones creativas, pero no son autoridad ni material publicable. Su rescate no aprueba una arquitectura, duración, formato ni lista de exclusiones para el futuro V3.
 
 Continúan pendientes, sin descartar:
 
@@ -75,4 +75,4 @@ Continúan pendientes, sin descartar:
 
 ## 5. Criterio de cierre
 
-La Clase 01 queda **rescatada como fuente y ordenada en su arquitectura de guion**, no terminada como producto. Su siguiente hito es redactar un V3 nuevo desde la arquitectura aprobada, sin convertir ninguno de los textos históricos en publicación automática.
+La Clase 01 queda **rescatada como fuente y memoria de guion**, no terminada como producto. La arquitectura del V3 corresponde a una decisión creativa del fundador. El criterio de partida será conservar el núcleo del método y reformular afirmaciones concretas cuando sea necesario, nunca eliminar elementos esenciales por iniciativa de un agente.
